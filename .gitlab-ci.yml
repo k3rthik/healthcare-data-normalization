@@ -95,7 +95,7 @@ data_validation:
   script:
     - echo "Checking CSV files existence..."
     - |
-      CSV_FILES=("daily_summary.csv" "order_line_items.csv" "orders.csv" "products_updated.csv")
+      CSV_FILES=("daily_summary.csv" "order_line_items.csv" "orders.csv" "products_updated.csv" "sales_profit_forecast.csv")
       for file in "${CSV_FILES[@]}"; do
         if [ ! -f "data/output/$file" ]; then
           echo "❌ Error: data/output/$file does not exist!"
