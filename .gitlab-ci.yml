@@ -1,7 +1,7 @@
 image: python:3.12
 
 variables:
-  DATASET_NUMBER: "1"  # Change this number to match your dataset
+  DATASET_NUMBER: "18"  # Change this number to match your dataset
 
 stages:
   - format

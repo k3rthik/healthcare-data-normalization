@@ -1,0 +1,7706 @@
+[
+  {
+    "transaction_id": 36740062,
+    "customer_id": 6,
+    "timestamp": "2024-02-07T13:59:12.268255",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 5
+      },
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 39623519,
+    "customer_id": 12,
+    "timestamp": "2024-02-07T03:43:23.712707",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 20910588,
+    "customer_id": 11,
+    "timestamp": "2024-02-07T01:55:14.129672",
+    "items": [
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 37196395,
+    "customer_id": 23,
+    "timestamp": "2024-02-07T18:02:27.560316",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 16941485,
+    "customer_id": 8,
+    "timestamp": "2024-02-07T17:30:49.258097",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 4
+      },
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 80749212,
+    "customer_id": 4,
+    "timestamp": "2024-02-07T07:58:34.767721",
+    "items": [
+      {
+        "product_id": 15,
+        "product_name": "Natural Dyes Lozenges Standard",
+        "qty": null
+      },
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 4
+      },
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 77393470,
+    "customer_id": 10,
+    "timestamp": "2024-02-07T09:51:38.550695",
+    "items": [
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 42958960,
+    "customer_id": 20,
+    "timestamp": "2024-02-07T16:25:57.997650",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 92731490,
+    "customer_id": 28,
+    "timestamp": "2024-02-07T23:00:00.793816",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 4
+      },
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 93954732,
+    "customer_id": 18,
+    "timestamp": "2024-02-07T10:06:55.163730",
+    "items": [
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 2
+      },
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 67177141,
+    "customer_id": 19,
+    "timestamp": "2024-02-07T14:07:32.994074",
+    "items": [
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 4
+      },
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": null
+      },
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 4
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 26014289,
+    "customer_id": 25,
+    "timestamp": "2024-02-07T16:04:51.401034",
+    "items": [
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": null
+      },
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": 4
+      },
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 3
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 43298694,
+    "customer_id": 10,
+    "timestamp": "2024-02-07T03:08:45.622160",
+    "items": [
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 4
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 3
+      },
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 31622204,
+    "customer_id": 9,
+    "timestamp": "2024-02-07T15:53:11.761294",
+    "items": [
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 97026543,
+    "customer_id": 1,
+    "timestamp": "2024-02-07T00:11:15.949366",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 49005037,
+    "customer_id": 14,
+    "timestamp": "2024-02-07T14:17:08.286246",
+    "items": [
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 25631483,
+    "customer_id": 19,
+    "timestamp": "2024-02-07T15:28:09.451020",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 43650219,
+    "customer_id": 13,
+    "timestamp": "2024-02-07T01:19:16.343582",
+    "items": [
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": null
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 1
+      },
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 59379825,
+    "customer_id": 24,
+    "timestamp": "2024-02-07T05:08:53.183510",
+    "items": [
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 76464923,
+    "customer_id": 29,
+    "timestamp": "2024-02-07T18:27:58.905519",
+    "items": [
+      {
+        "product_id": 15,
+        "product_name": "Natural Dyes Lozenges Standard",
+        "qty": null
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 5
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": 2
+      },
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 17994263,
+    "customer_id": 8,
+    "timestamp": "2024-02-07T06:26:05.137027",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": null
+      },
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 44142247,
+    "customer_id": 26,
+    "timestamp": "2024-02-07T01:15:27.430963",
+    "items": [
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 5
+      },
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 57337054,
+    "customer_id": 7,
+    "timestamp": "2024-02-07T13:15:00.271539",
+    "items": [
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 4
+      },
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": 4
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 12,
+        "product_name": "Drizzle Novelty Rings",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 96697709,
+    "customer_id": 30,
+    "timestamp": "2024-02-07T04:15:32.295309",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 11784167,
+    "customer_id": 1,
+    "timestamp": "2024-02-07T07:23:24.405358",
+    "items": [
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 1
+      },
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 98027987,
+    "customer_id": 4,
+    "timestamp": "2024-02-07T20:47:36.304649",
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 2
+      },
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": null
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 96796210,
+    "customer_id": 2,
+    "timestamp": "2024-02-07T16:20:38.222525",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 1
+      },
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 95409456,
+    "customer_id": 27,
+    "timestamp": "2024-02-07T09:09:24.663778",
+    "items": [
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": 2
+      },
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 2
+      },
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 27764232,
+    "customer_id": 5,
+    "timestamp": "2024-02-07T00:29:02.031152",
+    "items": [
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 647491,
+    "customer_id": 3,
+    "timestamp": "2024-02-07T09:50:10.712487",
+    "items": [
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 1
+      },
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": null
+      },
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": null
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 61104111,
+    "customer_id": 20,
+    "timestamp": "2024-02-07T08:02:00.981379",
+    "items": [
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 16284912,
+    "customer_id": 8,
+    "timestamp": "2024-02-07T19:08:02.038026",
+    "items": [
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 3673838,
+    "customer_id": 6,
+    "timestamp": "2024-02-07T07:44:22.780039",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 4
+      },
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 94685327,
+    "customer_id": 24,
+    "timestamp": "2024-02-07T02:49:14.238480",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 1
+      },
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 4
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 5
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 79119605,
+    "customer_id": 27,
+    "timestamp": "2024-02-07T22:18:41.274664",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 15,
+        "product_name": "Natural Dyes Lozenges Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 62075715,
+    "customer_id": 8,
+    "timestamp": "2024-02-07T23:08:28.887159",
+    "items": [
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": 4
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 4
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 25641699,
+    "customer_id": 23,
+    "timestamp": "2024-02-07T04:16:30.723393",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 4
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 25716128,
+    "customer_id": 17,
+    "timestamp": "2024-02-07T08:48:42.098879",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 63266727,
+    "customer_id": 23,
+    "timestamp": "2024-02-07T08:48:35.450702",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 50270483,
+    "customer_id": 20,
+    "timestamp": "2024-02-07T05:36:05.510464",
+    "items": [
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": null
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 1
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 53842854,
+    "customer_id": 28,
+    "timestamp": "2024-02-07T18:38:56.384688",
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 33140978,
+    "customer_id": 16,
+    "timestamp": "2024-02-07T16:43:14.210681",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 12,
+        "product_name": "Drizzle Novelty Rings",
+        "qty": 2
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 9891157,
+    "customer_id": 3,
+    "timestamp": "2024-02-07T14:14:52.842145",
+    "items": [
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": 4
+      },
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 72105997,
+    "customer_id": 7,
+    "timestamp": "2024-02-07T19:37:26.820408",
+    "items": [
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 58319511,
+    "customer_id": 7,
+    "timestamp": "2024-02-07T20:01:59.584729",
+    "items": [
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 1
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 72508450,
+    "customer_id": 3,
+    "timestamp": "2024-02-07T08:06:22.487415",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 5341596,
+    "customer_id": 1,
+    "timestamp": "2024-02-07T14:02:43.484888",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 4
+      },
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 71844449,
+    "customer_id": 26,
+    "timestamp": "2024-02-07T19:09:39.362169",
+    "items": [
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": null
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 72242181,
+    "customer_id": 4,
+    "timestamp": "2024-02-07T07:55:14.037650",
+    "items": [
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": null
+      },
+      {
+        "product_id": 12,
+        "product_name": "Drizzle Novelty Rings",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 44454842,
+    "customer_id": 16,
+    "timestamp": "2024-02-07T19:01:01.936993",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": null
+      },
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 4
+      },
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 69256888,
+    "customer_id": 30,
+    "timestamp": "2024-02-07T11:37:54.918319",
+    "items": [
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 74730667,
+    "customer_id": 10,
+    "timestamp": "2024-02-07T20:49:46.775076",
+    "items": [
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 48708725,
+    "customer_id": 3,
+    "timestamp": "2024-02-07T16:02:18.797421",
+    "items": [
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 22150019,
+    "customer_id": 13,
+    "timestamp": "2024-02-07T09:25:39.733264",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 2
+      },
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 1
+      },
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 46226313,
+    "customer_id": 4,
+    "timestamp": "2024-02-07T04:21:34.823372",
+    "items": [
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 95078945,
+    "customer_id": 19,
+    "timestamp": "2024-02-07T19:37:10.663858",
+    "items": [
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 2
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 50284895,
+    "customer_id": 18,
+    "timestamp": "2024-02-07T06:56:51.712000",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 39536202,
+    "customer_id": 2,
+    "timestamp": "2024-02-07T08:34:10.514346",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 2
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 6957827,
+    "customer_id": 17,
+    "timestamp": "2024-02-07T12:14:04.645822",
+    "items": [
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": 4
+      },
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 53082028,
+    "customer_id": 11,
+    "timestamp": "2024-02-07T08:11:50.234637",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 74834595,
+    "customer_id": 29,
+    "timestamp": "2024-02-07T22:04:17.523760",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 33321551,
+    "customer_id": 21,
+    "timestamp": "2024-02-07T21:07:25.632111",
+    "items": [
+      {
+        "product_id": 12,
+        "product_name": "Drizzle Novelty Rings",
+        "qty": 4
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 82293322,
+    "customer_id": 1,
+    "timestamp": "2024-02-07T01:31:30.127346",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 1
+      },
+      {
+        "product_id": 15,
+        "product_name": "Natural Dyes Lozenges Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 38802308,
+    "customer_id": 4,
+    "timestamp": "2024-02-07T11:13:04.258486",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": null
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 3
+      },
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 46909891,
+    "customer_id": 8,
+    "timestamp": "2024-02-07T16:09:27.689713",
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 3
+      },
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 71083469,
+    "customer_id": 2,
+    "timestamp": "2024-02-07T22:34:37.058020",
+    "items": [
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 55717791,
+    "customer_id": 18,
+    "timestamp": "2024-02-07T14:25:23.541711",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 1
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 60061310,
+    "customer_id": 3,
+    "timestamp": "2024-02-07T17:41:47.319716",
+    "items": [
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 80632388,
+    "customer_id": 26,
+    "timestamp": "2024-02-07T11:13:29.893405",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": null
+      },
+      {
+        "product_id": 12,
+        "product_name": "Drizzle Novelty Rings",
+        "qty": 4
+      },
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 89869925,
+    "customer_id": 8,
+    "timestamp": "2024-02-07T18:35:30.387410",
+    "items": [
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": null
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": null
+      },
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": null
+      },
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 86584984,
+    "customer_id": 4,
+    "timestamp": "2024-02-07T08:43:01.567947",
+    "items": [
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 3
+      },
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 9416449,
+    "customer_id": 1,
+    "timestamp": "2024-02-07T14:15:44.308581",
+    "items": [
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 4
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 3
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 9355154,
+    "customer_id": 15,
+    "timestamp": "2024-02-07T12:59:51.304342",
+    "items": [
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 4
+      },
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 55944871,
+    "customer_id": 15,
+    "timestamp": "2024-02-07T14:39:24.289262",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 37060204,
+    "customer_id": 17,
+    "timestamp": "2024-02-07T20:14:34.457797",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 4128006,
+    "customer_id": 22,
+    "timestamp": "2024-02-07T09:45:57.072544",
+    "items": [
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 5120112,
+    "customer_id": 4,
+    "timestamp": "2024-02-07T02:05:08.780170",
+    "items": [
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 15501550,
+    "customer_id": 2,
+    "timestamp": "2024-02-07T01:55:48.619182",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 16587195,
+    "customer_id": 6,
+    "timestamp": "2024-02-07T19:51:59.200858",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 4
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 12,
+        "product_name": "Drizzle Novelty Rings",
+        "qty": 2
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 44200935,
+    "customer_id": 11,
+    "timestamp": "2024-02-07T20:28:19.705874",
+    "items": [
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 12,
+        "product_name": "Drizzle Novelty Rings",
+        "qty": 4
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 69323045,
+    "customer_id": 27,
+    "timestamp": "2024-02-07T09:14:55.832083",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 46002612,
+    "customer_id": 13,
+    "timestamp": "2024-02-07T16:31:23.096486",
+    "items": [
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 71049742,
+    "customer_id": 22,
+    "timestamp": "2024-02-07T09:11:36.383234",
+    "items": [
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 1
+      },
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": 5
+      },
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 15333699,
+    "customer_id": 28,
+    "timestamp": "2024-02-07T11:12:08.260389",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": null
+      },
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 88723233,
+    "customer_id": 27,
+    "timestamp": "2024-02-07T18:15:18.623855",
+    "items": [
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": 2
+      },
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 2
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 1
+      },
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 91872498,
+    "customer_id": 10,
+    "timestamp": "2024-02-07T17:06:10.041680",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 67505652,
+    "customer_id": 24,
+    "timestamp": "2024-02-07T00:30:43.912002",
+    "items": [
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 2
+      },
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 45253819,
+    "customer_id": 7,
+    "timestamp": "2024-02-07T02:29:51.874081",
+    "items": [
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 88738582,
+    "customer_id": 16,
+    "timestamp": "2024-02-07T14:16:31.432569",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 99457453,
+    "customer_id": 18,
+    "timestamp": "2024-02-07T20:13:53.154153",
+    "items": [
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 74716360,
+    "customer_id": 5,
+    "timestamp": "2024-02-07T03:54:32.735105",
+    "items": [
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": null
+      },
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 1
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 86418094,
+    "customer_id": 25,
+    "timestamp": "2024-02-07T17:50:28.696021",
+    "items": [
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 4
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 25003506,
+    "customer_id": 21,
+    "timestamp": "2024-02-07T23:23:25.683718",
+    "items": [
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 2
+      },
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 20162157,
+    "customer_id": 5,
+    "timestamp": "2024-02-07T11:26:11.816798",
+    "items": [
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": null
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 5
+      },
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 11307453,
+    "customer_id": 11,
+    "timestamp": "2024-02-07T21:21:33.235153",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 28446084,
+    "customer_id": 1,
+    "timestamp": "2024-02-07T18:57:48.049935",
+    "items": [
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": 3
+      },
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 3
+      },
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 40695663,
+    "customer_id": 1,
+    "timestamp": "2024-02-07T09:17:48.225569",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 5
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 55066305,
+    "customer_id": 11,
+    "timestamp": "2024-02-07T05:13:21.652427",
+    "items": [
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 64463568,
+    "customer_id": 7,
+    "timestamp": "2024-02-07T02:10:45.361231",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 59243942,
+    "customer_id": 14,
+    "timestamp": "2024-02-07T07:09:09.495291",
+    "items": [
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": 2
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 5
+      },
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 31167486,
+    "customer_id": 9,
+    "timestamp": "2024-02-07T12:06:56.461487",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": null
+      },
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 54204856,
+    "customer_id": 18,
+    "timestamp": "2024-02-07T22:19:04.436481",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 2
+      },
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 57020981,
+    "customer_id": 30,
+    "timestamp": "2024-02-07T20:55:31.025323",
+    "items": [
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 3086,
+    "customer_id": 26,
+    "timestamp": "2024-02-07T07:08:01.237711",
+    "items": [
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 18809868,
+    "customer_id": 26,
+    "timestamp": "2024-02-07T16:12:35.169213",
+    "items": [
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": 1
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": null
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 5
+      },
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 83351755,
+    "customer_id": 7,
+    "timestamp": "2024-02-07T16:11:43.918577",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": null
+      },
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": null
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 11630650,
+    "customer_id": 11,
+    "timestamp": "2024-02-07T02:16:35.878616",
+    "items": [
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 4
+      },
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": 4
+      },
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 23848533,
+    "customer_id": 11,
+    "timestamp": "2024-02-07T08:33:14.594602",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 25780862,
+    "customer_id": 22,
+    "timestamp": "2024-02-07T12:43:15.186502",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 5
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 5727499,
+    "customer_id": 5,
+    "timestamp": "2024-02-07T16:55:28.595875",
+    "items": [
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": null
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 43984992,
+    "customer_id": 14,
+    "timestamp": "2024-02-07T13:59:53.982155",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 1
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 14753345,
+    "customer_id": 6,
+    "timestamp": "2024-02-07T20:06:28.896971",
+    "items": [
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 4
+      },
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 75018723,
+    "customer_id": 29,
+    "timestamp": "2024-02-07T20:06:15.957663",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 2158534,
+    "customer_id": 11,
+    "timestamp": "2024-02-07T09:39:38.342412",
+    "items": [
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 53845394,
+    "customer_id": 17,
+    "timestamp": "2024-02-07T04:45:07.376373",
+    "items": [
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 62696481,
+    "customer_id": 29,
+    "timestamp": "2024-02-07T02:37:20.600499",
+    "items": [
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 2
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 50575464,
+    "customer_id": 22,
+    "timestamp": "2024-02-07T19:27:17.132099",
+    "items": [
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 1
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 87414226,
+    "customer_id": 30,
+    "timestamp": "2024-02-07T06:07:17.000872",
+    "items": [
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 12,
+        "product_name": "Drizzle Novelty Rings",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 35423274,
+    "customer_id": 13,
+    "timestamp": "2024-02-07T07:49:37.382561",
+    "items": [
+      {
+        "product_id": 12,
+        "product_name": "Drizzle Novelty Rings",
+        "qty": 2
+      },
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 1488975,
+    "customer_id": 9,
+    "timestamp": "2024-02-07T02:16:04.208930",
+    "items": [
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 23003421,
+    "customer_id": 9,
+    "timestamp": "2024-02-07T02:49:36.580046",
+    "items": [
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 18157927,
+    "customer_id": 19,
+    "timestamp": "2024-02-07T06:11:34.382222",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 37830267,
+    "customer_id": 27,
+    "timestamp": "2024-02-07T12:25:51.067697",
+    "items": [
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 58855737,
+    "customer_id": 29,
+    "timestamp": "2024-02-07T13:00:10.939238",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 3
+      },
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 15817042,
+    "customer_id": 2,
+    "timestamp": "2024-02-07T21:14:34.457746",
+    "items": [
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 8834939,
+    "customer_id": 1,
+    "timestamp": "2024-02-07T20:36:54.765986",
+    "items": [
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": null
+      },
+      {
+        "product_id": 12,
+        "product_name": "Drizzle Novelty Rings",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 15606514,
+    "customer_id": 30,
+    "timestamp": "2024-02-07T16:58:44.069371",
+    "items": [
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 14544120,
+    "customer_id": 21,
+    "timestamp": "2024-02-07T07:47:04.491570",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 73147349,
+    "customer_id": 7,
+    "timestamp": "2024-02-07T20:45:29.226437",
+    "items": [
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 40171485,
+    "customer_id": 30,
+    "timestamp": "2024-02-07T17:24:28.762091",
+    "items": [
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 72217862,
+    "customer_id": 12,
+    "timestamp": "2024-02-07T08:36:29.944661",
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 4
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 8984351,
+    "customer_id": 25,
+    "timestamp": "2024-02-07T20:00:00.136758",
+    "items": [
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 1
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 98969211,
+    "customer_id": 25,
+    "timestamp": "2024-02-07T03:41:43.480798",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": 1
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 35727693,
+    "customer_id": 29,
+    "timestamp": "2024-02-07T03:58:44.844429",
+    "items": [
+      {
+        "product_id": 12,
+        "product_name": "Drizzle Novelty Rings",
+        "qty": 3
+      },
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 3
+      },
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 32232431,
+    "customer_id": 4,
+    "timestamp": "2024-02-07T10:26:56.536911",
+    "items": [
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 11095368,
+    "customer_id": 8,
+    "timestamp": "2024-02-07T06:56:27.509483",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 2
+      },
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 72983129,
+    "customer_id": 8,
+    "timestamp": "2024-02-07T23:14:10.368507",
+    "items": [
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 3
+      },
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 82408942,
+    "customer_id": 3,
+    "timestamp": "2024-02-07T06:30:13.151188",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": 2
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 4
+      },
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 2
+      },
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 96759854,
+    "customer_id": 8,
+    "timestamp": "2024-02-07T02:16:21.946318",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": null
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 61880130,
+    "customer_id": 13,
+    "timestamp": "2024-02-07T10:31:30.111703",
+    "items": [
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 94685658,
+    "customer_id": 10,
+    "timestamp": "2024-02-07T08:00:13.947573",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": 5
+      },
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 59900951,
+    "customer_id": 20,
+    "timestamp": "2024-02-07T06:02:20.176894",
+    "items": [
+      {
+        "product_id": 12,
+        "product_name": "Drizzle Novelty Rings",
+        "qty": 5
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 36153672,
+    "customer_id": 14,
+    "timestamp": "2024-02-07T18:19:39.585723",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": null
+      },
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 66240248,
+    "customer_id": 18,
+    "timestamp": "2024-02-07T13:36:45.555695",
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 44478099,
+    "customer_id": 6,
+    "timestamp": "2024-02-07T21:34:15.438522",
+    "items": [
+      {
+        "product_id": 15,
+        "product_name": "Natural Dyes Lozenges Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 43741875,
+    "customer_id": 4,
+    "timestamp": "2024-02-07T16:02:51.741590",
+    "items": [
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 5
+      },
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": null
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 21995861,
+    "customer_id": 11,
+    "timestamp": "2024-02-07T08:06:17.848309",
+    "items": [
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 35635460,
+    "customer_id": 19,
+    "timestamp": "2024-02-07T20:28:55.830661",
+    "items": [
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 41914562,
+    "customer_id": 30,
+    "timestamp": "2024-02-07T15:31:41.125681",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 5
+      },
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 5
+      },
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 13993120,
+    "customer_id": 7,
+    "timestamp": "2024-02-07T04:50:28.947967",
+    "items": [
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 75038047,
+    "customer_id": 13,
+    "timestamp": "2024-02-07T11:24:09.030679",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 4
+      },
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 12,
+        "product_name": "Drizzle Novelty Rings",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 44299437,
+    "customer_id": 28,
+    "timestamp": "2024-02-07T10:25:03.552537",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 60877870,
+    "customer_id": 1,
+    "timestamp": "2024-02-07T03:58:17.052577",
+    "items": [
+      {
+        "product_id": 15,
+        "product_name": "Natural Dyes Lozenges Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 5
+      },
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 9058846,
+    "customer_id": 12,
+    "timestamp": "2024-02-07T15:51:33.307750",
+    "items": [
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 67766295,
+    "customer_id": 16,
+    "timestamp": "2024-02-07T23:41:50.264448",
+    "items": [
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 4
+      },
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 66368388,
+    "customer_id": 23,
+    "timestamp": "2024-02-07T13:36:27.203340",
+    "items": [
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 15,
+        "product_name": "Natural Dyes Lozenges Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 61290316,
+    "customer_id": 6,
+    "timestamp": "2024-02-07T13:28:12.830937",
+    "items": [
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 4
+      },
+      {
+        "product_id": 15,
+        "product_name": "Natural Dyes Lozenges Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 6828306,
+    "customer_id": 14,
+    "timestamp": "2024-02-07T15:14:44.927011",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 5
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 982441,
+    "customer_id": 1,
+    "timestamp": "2024-02-07T09:19:43.305564",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": null
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 2
+      },
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 5898672,
+    "customer_id": 30,
+    "timestamp": "2024-02-07T01:14:16.959146",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 2
+      },
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 87490445,
+    "customer_id": 11,
+    "timestamp": "2024-02-07T11:25:22.979791",
+    "items": [
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 3196193,
+    "customer_id": 16,
+    "timestamp": "2024-02-07T07:23:40.732075",
+    "items": [
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 31564645,
+    "customer_id": 5,
+    "timestamp": "2024-02-07T21:20:05.941772",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 39698287,
+    "customer_id": 21,
+    "timestamp": "2024-02-07T08:34:37.000244",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 23594869,
+    "customer_id": 3,
+    "timestamp": "2024-02-07T09:36:22.970855",
+    "items": [
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 2
+      },
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 50864496,
+    "customer_id": 26,
+    "timestamp": "2024-02-07T12:33:10.227618",
+    "items": [
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 2
+      },
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 28233422,
+    "customer_id": 30,
+    "timestamp": "2024-02-07T17:10:07.803945",
+    "items": [
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 96567881,
+    "customer_id": 9,
+    "timestamp": "2024-02-07T18:02:01.014125",
+    "items": [
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 9394400,
+    "customer_id": 30,
+    "timestamp": "2024-02-07T13:17:00.264870",
+    "items": [
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 30513390,
+    "customer_id": 29,
+    "timestamp": "2024-02-07T15:59:10.805316",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": 1
+      },
+      {
+        "product_id": 15,
+        "product_name": "Natural Dyes Lozenges Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 17537000,
+    "customer_id": 30,
+    "timestamp": "2024-02-07T16:20:04.095225",
+    "items": [
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 1
+      },
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 1
+      },
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 21997484,
+    "customer_id": 7,
+    "timestamp": "2024-02-07T21:59:16.743909",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 28026068,
+    "customer_id": 13,
+    "timestamp": "2024-02-07T14:50:08.185694",
+    "items": [
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 4
+      },
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": null
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 24416683,
+    "customer_id": 3,
+    "timestamp": "2024-02-07T15:58:30.949936",
+    "items": [
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 15,
+        "product_name": "Natural Dyes Lozenges Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 98562388,
+    "customer_id": 15,
+    "timestamp": "2024-02-07T02:59:47.688823",
+    "items": [
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": null
+      },
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 5
+      },
+      {
+        "product_id": 15,
+        "product_name": "Natural Dyes Lozenges Standard",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 85649045,
+    "customer_id": 23,
+    "timestamp": "2024-02-07T03:52:21.472127",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 4
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 25626601,
+    "customer_id": 24,
+    "timestamp": "2024-02-07T21:20:47.078627",
+    "items": [
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 80976566,
+    "customer_id": 17,
+    "timestamp": "2024-02-07T10:48:06.848722",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 67903913,
+    "customer_id": 4,
+    "timestamp": "2024-02-07T06:17:22.279438",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": null
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 59852907,
+    "customer_id": 11,
+    "timestamp": "2024-02-07T03:10:16.758240",
+    "items": [
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": null
+      },
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 39977946,
+    "customer_id": 28,
+    "timestamp": "2024-02-07T08:07:10.030487",
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 3
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 1
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 67568717,
+    "customer_id": 1,
+    "timestamp": "2024-02-07T15:30:18.306401",
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 5
+      },
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 2
+      },
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 5
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 70629653,
+    "customer_id": 18,
+    "timestamp": "2024-02-07T17:35:27.022198",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 5
+      },
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 3
+      },
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 77283137,
+    "customer_id": 10,
+    "timestamp": "2024-02-07T18:38:21.612420",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 5
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": 1
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 9992952,
+    "customer_id": 7,
+    "timestamp": "2024-02-07T07:56:34.777451",
+    "items": [
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 4
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 83829545,
+    "customer_id": 4,
+    "timestamp": "2024-02-07T23:29:59.617735",
+    "items": [
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 43864622,
+    "customer_id": 10,
+    "timestamp": "2024-02-07T01:55:56.460966",
+    "items": [
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 1
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 78535414,
+    "customer_id": 13,
+    "timestamp": "2024-02-07T16:31:00.223431",
+    "items": [
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 1
+      },
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 4
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 45588446,
+    "customer_id": 23,
+    "timestamp": "2024-02-07T18:41:09.141222",
+    "items": [
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": null
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 1
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 84729641,
+    "customer_id": 22,
+    "timestamp": "2024-02-07T14:17:18.438066",
+    "items": [
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 51104751,
+    "customer_id": 20,
+    "timestamp": "2024-02-07T02:38:40.914504",
+    "items": [
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 15,
+        "product_name": "Natural Dyes Lozenges Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 52737264,
+    "customer_id": 4,
+    "timestamp": "2024-02-07T07:35:39.503908",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 3
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 85477255,
+    "customer_id": 22,
+    "timestamp": "2024-02-07T23:57:59.714673",
+    "items": [
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 2
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 47439965,
+    "customer_id": 26,
+    "timestamp": "2024-02-07T16:53:11.461658",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 21055902,
+    "customer_id": 6,
+    "timestamp": "2024-02-07T00:18:29.323513",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 14130630,
+    "customer_id": 14,
+    "timestamp": "2024-02-07T11:48:45.532115",
+    "items": [
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": null
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 21466927,
+    "customer_id": 14,
+    "timestamp": "2024-02-07T18:07:13.615815",
+    "items": [
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 2
+      },
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 68410994,
+    "customer_id": 25,
+    "timestamp": "2024-02-07T04:27:40.464183",
+    "items": [
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 82858873,
+    "customer_id": 21,
+    "timestamp": "2024-02-07T19:45:41.168287",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 36373125,
+    "customer_id": 23,
+    "timestamp": "2024-02-07T12:22:25.537981",
+    "items": [
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 16995862,
+    "customer_id": 27,
+    "timestamp": "2024-02-07T10:39:15.077979",
+    "items": [
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 58809973,
+    "customer_id": 22,
+    "timestamp": "2024-02-07T12:42:39.830477",
+    "items": [
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 58674413,
+    "customer_id": 30,
+    "timestamp": "2024-02-07T01:45:40.817845",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 82435898,
+    "customer_id": 2,
+    "timestamp": "2024-02-07T05:57:46.668327",
+    "items": [
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 2187744,
+    "customer_id": 18,
+    "timestamp": "2024-02-07T05:59:45.584602",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 69266316,
+    "customer_id": 11,
+    "timestamp": "2024-02-07T04:52:34.141006",
+    "items": [
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 42461752,
+    "customer_id": 13,
+    "timestamp": "2024-02-07T09:29:44.907206",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 5622550,
+    "customer_id": 1,
+    "timestamp": "2024-02-07T18:02:38.723253",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 15,
+        "product_name": "Natural Dyes Lozenges Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 2
+      },
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 53474134,
+    "customer_id": 4,
+    "timestamp": "2024-02-07T17:53:09.468693",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 60628761,
+    "customer_id": 6,
+    "timestamp": "2024-02-07T01:49:02.409005",
+    "items": [
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 4
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 87771128,
+    "customer_id": 5,
+    "timestamp": "2024-02-07T01:02:15.310338",
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 2
+      },
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 95718361,
+    "customer_id": 18,
+    "timestamp": "2024-02-07T01:50:12.008004",
+    "items": [
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 88846643,
+    "customer_id": 18,
+    "timestamp": "2024-02-07T23:34:59.369667",
+    "items": [
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 3
+      },
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 96255915,
+    "customer_id": 3,
+    "timestamp": "2024-02-07T22:31:31.130751",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 1559367,
+    "customer_id": 21,
+    "timestamp": "2024-02-07T01:27:29.290152",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 5
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 35185717,
+    "customer_id": 9,
+    "timestamp": "2024-02-07T20:35:31.216132",
+    "items": [
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 66389812,
+    "customer_id": 9,
+    "timestamp": "2024-02-07T05:49:02.590564",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 77119955,
+    "customer_id": 15,
+    "timestamp": "2024-02-07T03:06:11.513809",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": 4
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 49912492,
+    "customer_id": 10,
+    "timestamp": "2024-02-07T10:39:26.200773",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 85056943,
+    "customer_id": 10,
+    "timestamp": "2024-02-07T04:22:29.298004",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 4045901,
+    "customer_id": 23,
+    "timestamp": "2024-02-07T15:16:47.374215",
+    "items": [
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": null
+      },
+      {
+        "product_id": 15,
+        "product_name": "Natural Dyes Lozenges Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 67433421,
+    "customer_id": 6,
+    "timestamp": "2024-02-07T05:05:15.256473",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 12983063,
+    "customer_id": 11,
+    "timestamp": "2024-02-07T07:08:03.196736",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": null
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 3
+      },
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 13950798,
+    "customer_id": 24,
+    "timestamp": "2024-02-07T02:37:08.973752",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 65435422,
+    "customer_id": 4,
+    "timestamp": "2024-02-07T17:57:13.895410",
+    "items": [
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 22577913,
+    "customer_id": 17,
+    "timestamp": "2024-02-07T03:39:04.134923",
+    "items": [
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 84251218,
+    "customer_id": 12,
+    "timestamp": "2024-02-07T22:37:36.188236",
+    "items": [
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 23078707,
+    "customer_id": 22,
+    "timestamp": "2024-02-07T10:35:53.570574",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": null
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 31669626,
+    "customer_id": 26,
+    "timestamp": "2024-02-07T14:59:20.387022",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 90799115,
+    "customer_id": 6,
+    "timestamp": "2024-02-07T14:55:33.251894",
+    "items": [
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 47566425,
+    "customer_id": 9,
+    "timestamp": "2024-02-07T13:01:50.812868",
+    "items": [
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": 1
+      },
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 91493467,
+    "customer_id": 17,
+    "timestamp": "2024-02-07T00:32:33.281499",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 3
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 5
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 85597861,
+    "customer_id": 12,
+    "timestamp": "2024-02-07T21:34:20.561971",
+    "items": [
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 99399131,
+    "customer_id": 5,
+    "timestamp": "2024-02-07T04:26:56.153746",
+    "items": [
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 1
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 92607460,
+    "customer_id": 26,
+    "timestamp": "2024-02-07T03:00:20.167730",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 19459143,
+    "customer_id": 18,
+    "timestamp": "2024-02-07T01:27:06.646092",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 18620854,
+    "customer_id": 19,
+    "timestamp": "2024-02-07T09:37:02.607796",
+    "items": [
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": null
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 9667778,
+    "customer_id": 8,
+    "timestamp": "2024-02-07T15:52:58.407264",
+    "items": [
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 3
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 2
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 3752794,
+    "customer_id": 25,
+    "timestamp": "2024-02-07T10:25:29.939586",
+    "items": [
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 4
+      },
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": 5
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 4
+      },
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 45741911,
+    "customer_id": 20,
+    "timestamp": "2024-02-07T22:24:44.692920",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 12,
+        "product_name": "Drizzle Novelty Rings",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 26007447,
+    "customer_id": 11,
+    "timestamp": "2024-02-07T12:42:17.013891",
+    "items": [
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": 4
+      },
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 48207316,
+    "customer_id": 6,
+    "timestamp": "2024-02-07T08:54:00.654363",
+    "items": [
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 5
+      },
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 53564754,
+    "customer_id": 14,
+    "timestamp": "2024-02-07T00:27:39.835955",
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 5
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 91623599,
+    "customer_id": 25,
+    "timestamp": "2024-02-07T00:41:29.223957",
+    "items": [
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 1
+      },
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": null
+      },
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 39698033,
+    "customer_id": 9,
+    "timestamp": "2024-02-07T10:29:36.112795",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 60310509,
+    "customer_id": 29,
+    "timestamp": "2024-02-07T19:30:24.765230",
+    "items": [
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 27738283,
+    "customer_id": 28,
+    "timestamp": "2024-02-07T05:55:16.273557",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 3
+      },
+      {
+        "product_id": 12,
+        "product_name": "Drizzle Novelty Rings",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 43217222,
+    "customer_id": 12,
+    "timestamp": "2024-02-07T03:21:23.823773",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 4
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 61490373,
+    "customer_id": 27,
+    "timestamp": "2024-02-07T22:37:57.419966",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 78746545,
+    "customer_id": 12,
+    "timestamp": "2024-02-07T15:52:57.306155",
+    "items": [
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": 1
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 34623630,
+    "customer_id": 26,
+    "timestamp": "2024-02-07T12:38:43.222383",
+    "items": [
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 3111428,
+    "customer_id": 15,
+    "timestamp": "2024-02-07T06:26:31.781651",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 69166459,
+    "customer_id": 6,
+    "timestamp": "2024-02-07T16:22:02.499227",
+    "items": [
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 12,
+        "product_name": "Drizzle Novelty Rings",
+        "qty": 1
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 5
+      },
+      {
+        "product_id": 15,
+        "product_name": "Natural Dyes Lozenges Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 72656420,
+    "customer_id": 15,
+    "timestamp": "2024-02-07T17:24:09.276982",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 4
+      },
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 80525149,
+    "customer_id": 9,
+    "timestamp": "2024-02-07T00:34:52.831998",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": null
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 12603672,
+    "customer_id": 11,
+    "timestamp": "2024-02-07T22:03:12.413101",
+    "items": [
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 1
+      },
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 4
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 66134099,
+    "customer_id": 5,
+    "timestamp": "2024-02-07T23:41:03.236355",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 37635214,
+    "customer_id": 24,
+    "timestamp": "2024-02-07T22:45:33.831757",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 4
+      },
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 6746457,
+    "customer_id": 27,
+    "timestamp": "2024-02-07T17:55:16.263383",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": 3
+      },
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 6711443,
+    "customer_id": 29,
+    "timestamp": "2024-02-07T11:12:49.563095",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 7477555,
+    "customer_id": 17,
+    "timestamp": "2024-02-07T15:07:16.444209",
+    "items": [
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 4
+      },
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 97817841,
+    "customer_id": 1,
+    "timestamp": "2024-02-07T20:50:05.712082",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 1
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 24189662,
+    "customer_id": 1,
+    "timestamp": "2024-02-07T15:13:47.539204",
+    "items": [
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": null
+      },
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": null
+      },
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 52861284,
+    "customer_id": 30,
+    "timestamp": "2024-02-07T23:55:55.376794",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 3
+      },
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 80490162,
+    "customer_id": 16,
+    "timestamp": "2024-02-07T14:10:14.155580",
+    "items": [
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 61363217,
+    "customer_id": 6,
+    "timestamp": "2024-02-07T09:28:00.198004",
+    "items": [
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 4
+      },
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 7140964,
+    "customer_id": 1,
+    "timestamp": "2024-02-07T20:18:05.136516",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 5
+      },
+      {
+        "product_id": 12,
+        "product_name": "Drizzle Novelty Rings",
+        "qty": 1
+      },
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 5
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 96349155,
+    "customer_id": 24,
+    "timestamp": "2024-02-07T12:07:43.703485",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 12107357,
+    "customer_id": 26,
+    "timestamp": "2024-02-07T09:34:14.455568",
+    "items": [
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 2
+      },
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 63224657,
+    "customer_id": 10,
+    "timestamp": "2024-02-07T19:00:20.445584",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": 1
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": null
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 80869849,
+    "customer_id": 25,
+    "timestamp": "2024-02-07T09:56:24.311459",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 64674484,
+    "customer_id": 26,
+    "timestamp": "2024-02-07T05:43:29.830536",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 18990639,
+    "customer_id": 23,
+    "timestamp": "2024-02-07T18:08:32.268251",
+    "items": [
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 1
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 60646766,
+    "customer_id": 18,
+    "timestamp": "2024-02-07T00:38:53.363298",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 3
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 64794870,
+    "customer_id": 9,
+    "timestamp": "2024-02-07T17:06:16.725424",
+    "items": [
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 18951507,
+    "customer_id": 3,
+    "timestamp": "2024-02-07T18:06:51.394080",
+    "items": [
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 7960735,
+    "customer_id": 25,
+    "timestamp": "2024-02-07T13:24:51.608328",
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 2
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": null
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 75182034,
+    "customer_id": 12,
+    "timestamp": "2024-02-07T13:08:44.723356",
+    "items": [
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": 2
+      },
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 3
+      },
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 56881009,
+    "customer_id": 27,
+    "timestamp": "2024-02-07T15:45:23.461342",
+    "items": [
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 39273412,
+    "customer_id": 12,
+    "timestamp": "2024-02-07T01:53:53.712548",
+    "items": [
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 1
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 4
+      },
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 89040918,
+    "customer_id": 2,
+    "timestamp": "2024-02-07T19:21:25.744956",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": 2
+      },
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 3
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 46991114,
+    "customer_id": 27,
+    "timestamp": "2024-02-07T15:06:55.785965",
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 3
+      },
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 4
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 92992759,
+    "customer_id": 30,
+    "timestamp": "2024-02-07T21:17:58.726622",
+    "items": [
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 5
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 58060836,
+    "customer_id": 7,
+    "timestamp": "2024-02-07T21:37:51.597398",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 2
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": null
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 36321793,
+    "customer_id": 7,
+    "timestamp": "2024-02-07T00:17:44.829335",
+    "items": [
+      {
+        "product_id": 31,
+        "product_name": "Metallic Drops Crystal Forms",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 32172417,
+    "customer_id": 19,
+    "timestamp": "2024-02-07T05:05:36.098239",
+    "items": [
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 3260443,
+    "customer_id": 11,
+    "timestamp": "2024-02-07T10:05:58.628115",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 31302258,
+    "customer_id": 30,
+    "timestamp": "2024-02-07T11:34:01.475264",
+    "items": [
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 4
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 18230354,
+    "customer_id": 29,
+    "timestamp": "2024-02-07T03:24:50.207055",
+    "items": [
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 3
+      },
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 99010540,
+    "customer_id": 17,
+    "timestamp": "2024-02-07T08:48:47.152412",
+    "items": [
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 80458182,
+    "customer_id": 5,
+    "timestamp": "2024-02-07T22:11:30.409421",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 15,
+        "product_name": "Natural Dyes Lozenges Standard",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 61059076,
+    "customer_id": 10,
+    "timestamp": "2024-02-07T20:42:24.302448",
+    "items": [
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 43983989,
+    "customer_id": 12,
+    "timestamp": "2024-02-07T04:01:40.342041",
+    "items": [
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": 1
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 5
+      },
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 27009774,
+    "customer_id": 21,
+    "timestamp": "2024-02-07T20:06:58.664309",
+    "items": [
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 27857767,
+    "customer_id": 5,
+    "timestamp": "2024-02-07T17:13:25.296119",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 28083233,
+    "customer_id": 19,
+    "timestamp": "2024-02-07T18:35:07.874916",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 68817430,
+    "customer_id": 4,
+    "timestamp": "2024-02-07T03:43:48.408465",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 3
+      },
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 75290248,
+    "customer_id": 22,
+    "timestamp": "2024-02-07T03:02:57.928705",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 1
+      },
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 38219097,
+    "customer_id": 10,
+    "timestamp": "2024-02-07T07:33:53.846652",
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 27404389,
+    "customer_id": 15,
+    "timestamp": "2024-02-07T01:42:10.045987",
+    "items": [
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 3
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 48996130,
+    "customer_id": 4,
+    "timestamp": "2024-02-07T06:30:32.253582",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 34570421,
+    "customer_id": 13,
+    "timestamp": "2024-02-07T14:33:21.015296",
+    "items": [
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 5
+      },
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 12,
+        "product_name": "Drizzle Novelty Rings",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 97787585,
+    "customer_id": 20,
+    "timestamp": "2024-02-07T06:52:24.022643",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 48635655,
+    "customer_id": 24,
+    "timestamp": "2024-02-07T20:21:41.022871",
+    "items": [
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 5
+      },
+      {
+        "product_id": 15,
+        "product_name": "Natural Dyes Lozenges Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 21245087,
+    "customer_id": 19,
+    "timestamp": "2024-02-07T03:38:54.143413",
+    "items": [
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 1
+      },
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 10094614,
+    "customer_id": 24,
+    "timestamp": "2024-02-07T03:50:52.424120",
+    "items": [
+      {
+        "product_id": 34,
+        "product_name": "Swirled Buttons Sticks",
+        "qty": 1
+      },
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 1
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 70708414,
+    "customer_id": 14,
+    "timestamp": "2024-02-07T21:11:21.776987",
+    "items": [
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 2
+      },
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 54238767,
+    "customer_id": 19,
+    "timestamp": "2024-02-07T13:57:31.518527",
+    "items": [
+      {
+        "product_id": 12,
+        "product_name": "Drizzle Novelty Rings",
+        "qty": 1
+      },
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 1
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 23485459,
+    "customer_id": 7,
+    "timestamp": "2024-02-07T12:03:01.746574",
+    "items": [
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": null
+      },
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 13194791,
+    "customer_id": 2,
+    "timestamp": "2024-02-07T03:09:53.396418",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 59144069,
+    "customer_id": 4,
+    "timestamp": "2024-02-07T04:43:53.433086",
+    "items": [
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": null
+      },
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 1
+      },
+      {
+        "product_id": 12,
+        "product_name": "Drizzle Novelty Rings",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 32883693,
+    "customer_id": 28,
+    "timestamp": "2024-02-07T20:54:22.792715",
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 3
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 5
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 27444012,
+    "customer_id": 15,
+    "timestamp": "2024-02-07T10:04:13.396619",
+    "items": [
+      {
+        "product_id": 4,
+        "product_name": "Drizzle Swirl Rings",
+        "qty": 2
+      },
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 78496872,
+    "customer_id": 11,
+    "timestamp": "2024-02-07T09:32:51.669279",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 32515827,
+    "customer_id": 28,
+    "timestamp": "2024-02-07T16:07:53.124098",
+    "items": [
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 1
+      },
+      {
+        "product_id": 28,
+        "product_name": "Swirled Mints Crystal Forms",
+        "qty": null
+      },
+      {
+        "product_id": 26,
+        "product_name": "Swirled Mints Sticks",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 60869740,
+    "customer_id": 18,
+    "timestamp": "2024-02-07T16:07:28.279047",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": 3
+      },
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 1
+      },
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 96623331,
+    "customer_id": 11,
+    "timestamp": "2024-02-07T03:09:14.754816",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 2
+      },
+      {
+        "product_id": 2,
+        "product_name": "Drizzle Swirl Animals",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 58201616,
+    "customer_id": 25,
+    "timestamp": "2024-02-07T03:22:49.587201",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 92395978,
+    "customer_id": 27,
+    "timestamp": "2024-02-07T09:51:43.814349",
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 75991205,
+    "customer_id": 17,
+    "timestamp": "2024-02-07T06:59:03.375859",
+    "items": [
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 5
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 5107866,
+    "customer_id": 22,
+    "timestamp": "2024-02-07T10:24:35.559358",
+    "items": [
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": 2
+      },
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 13417256,
+    "customer_id": 7,
+    "timestamp": "2024-02-07T18:32:12.818069",
+    "items": [
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 24859048,
+    "customer_id": 9,
+    "timestamp": "2024-02-07T09:20:45.997781",
+    "items": [
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 4
+      },
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 7111263,
+    "customer_id": 29,
+    "timestamp": "2024-02-07T13:55:58.722230",
+    "items": [
+      {
+        "product_id": 15,
+        "product_name": "Natural Dyes Lozenges Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 45518851,
+    "customer_id": 27,
+    "timestamp": "2024-02-07T22:49:15.839983",
+    "items": [
+      {
+        "product_id": 15,
+        "product_name": "Natural Dyes Lozenges Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 76493631,
+    "customer_id": 3,
+    "timestamp": "2024-02-07T17:36:07.558010",
+    "items": [
+      {
+        "product_id": 15,
+        "product_name": "Natural Dyes Lozenges Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 36,
+        "product_name": "Swirled Buttons Crystal Forms",
+        "qty": 3
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 14564358,
+    "customer_id": 21,
+    "timestamp": "2024-02-07T15:34:58.920349",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 1
+      },
+      {
+        "product_id": 12,
+        "product_name": "Drizzle Novelty Rings",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 95983345,
+    "customer_id": 19,
+    "timestamp": "2024-02-07T00:13:31.374437",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": null
+      },
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": 1
+      },
+      {
+        "product_id": 9,
+        "product_name": "Glitter Novelty Animals",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 25594245,
+    "customer_id": 14,
+    "timestamp": "2024-02-07T02:11:41.909824",
+    "items": [
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 7,
+        "product_name": "Glitter Standard Rings",
+        "qty": 1
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 1
+      },
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 15,
+        "product_name": "Natural Dyes Lozenges Standard",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 69040517,
+    "customer_id": 17,
+    "timestamp": "2024-02-07T04:28:29.996766",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 47416796,
+    "customer_id": 26,
+    "timestamp": "2024-02-07T07:34:15.562215",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": null
+      },
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 32,
+        "product_name": "Swirled Drops Crystal Forms",
+        "qty": null
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 31560336,
+    "customer_id": 15,
+    "timestamp": "2024-02-07T22:59:40.499319",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 2
+      },
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 84283008,
+    "customer_id": 15,
+    "timestamp": "2024-02-07T22:00:02.982930",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 5
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 21705649,
+    "customer_id": 27,
+    "timestamp": "2024-02-07T01:21:55.187275",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": null
+      },
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 5
+      },
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 24066846,
+    "customer_id": 1,
+    "timestamp": "2024-02-07T18:51:29.126038",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 15,
+        "product_name": "Natural Dyes Lozenges Standard",
+        "qty": null
+      },
+      {
+        "product_id": 33,
+        "product_name": "Metallic Buttons Sticks",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 88792485,
+    "customer_id": 22,
+    "timestamp": "2024-02-07T18:55:26.341146",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 53835091,
+    "customer_id": 19,
+    "timestamp": "2024-02-07T11:20:11.135472",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 5
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 2
+      },
+      {
+        "product_id": 18,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 35081345,
+    "customer_id": 13,
+    "timestamp": "2024-02-07T19:55:56.838700",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 10,
+        "product_name": "Drizzle Novelty Animals",
+        "qty": 3
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 16855542,
+    "customer_id": 27,
+    "timestamp": "2024-02-07T10:49:04.945951",
+    "items": [
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 5
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 7738914,
+    "customer_id": 8,
+    "timestamp": "2024-02-07T16:56:20.179763",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 3
+      },
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 49970973,
+    "customer_id": 9,
+    "timestamp": "2024-02-07T03:28:02.441374",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 4
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glitter Standard Animals",
+        "qty": 4
+      },
+      {
+        "product_id": 6,
+        "product_name": "Drizzle Standard Animals",
+        "qty": 4
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 9947405,
+    "customer_id": 25,
+    "timestamp": "2024-02-07T13:07:41.149752",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Natural Dyes Lozenges Medicated Drops",
+        "qty": null
+      },
+      {
+        "product_id": 30,
+        "product_name": "Swirled Drops Sticks",
+        "qty": 1
+      },
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 83164919,
+    "customer_id": 5,
+    "timestamp": "2024-02-07T15:19:17.703336",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 1
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glitter Swirl Rings",
+        "qty": 4
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glitter Swirl Animals",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 38399869,
+    "customer_id": 12,
+    "timestamp": "2024-02-07T08:29:29.762920",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Metallic Mints Sticks",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 59972422,
+    "customer_id": 6,
+    "timestamp": "2024-02-07T19:48:59.537337",
+    "items": [
+      {
+        "product_id": 29,
+        "product_name": "Metallic Drops Sticks",
+        "qty": null
+      },
+      {
+        "product_id": 11,
+        "product_name": "Glitter Novelty Rings",
+        "qty": 2
+      },
+      {
+        "product_id": 12,
+        "product_name": "Drizzle Novelty Rings",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 61000714,
+    "customer_id": 28,
+    "timestamp": "2024-02-07T09:28:46.347618",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Vitamin Coating Lozenges Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 8,
+        "product_name": "Drizzle Standard Rings",
+        "qty": 4
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 35,
+        "product_name": "Metallic Buttons Crystal Forms",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 25688114,
+    "customer_id": 30,
+    "timestamp": "2024-02-07T22:41:08.749257",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Metallic Mints Crystal Forms",
+        "qty": 2
+      },
+      {
+        "product_id": 17,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 16,
+        "product_name": "Vitamin Coating Lozenges Standard",
+        "qty": 3
+      }
+    ]
+  }
+]
