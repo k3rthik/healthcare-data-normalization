@@ -6,19 +6,19 @@ import os
 from pyspark.sql.functions import col
 from typing import Dict, Tuple
 import traceback
+from time_series import ProphetForecaster
 
 
 def create_spark_session(app_name: str = "CandyStoreAnalytics") -> SparkSession:
-    """
-    Create and configure Spark session with MongoDB and MySQL connectors
-    """
+    """Create and configure Spark session with MongoDB and MySQL connectors"""
     return (
         SparkSession.builder.appName(app_name)
         .config(
-            "spark.jars.packages", "org.mongodb.spark:mongo-spark-connector_2.12:3.0.1"
+            "spark.jars.packages",
+            "org.mongodb.spark:mongo-spark-connector_2.12:3.0.1,mysql:mysql-connector-java:8.0.33",
         )
-        .config("spark.jars", os.getenv("MYSQL_CONNECTOR_PATH"))
         .config("spark.mongodb.input.uri", os.getenv("MONGODB_URI"))
+        .config("spark.mongodb.output.uri", f"{os.getenv('MONGODB_URI')}/{os.getenv('MONGO_DB')}")
         .getOrCreate()
     )
 
@@ -27,30 +27,7 @@ def get_date_range(start_date: str, end_date: str) -> list[str]:
     """Generate a list of dates between start and end date"""
     start = datetime.strptime(start_date, "%Y%m%d")
     end = datetime.strptime(end_date, "%Y%m%d")
-    date_list = []
-
-    current = start
-    while current <= end:
-        date_list.append(current.strftime("%Y%m%d"))
-        current += timedelta(days=1)
-
-    return date_list
-
-
-def print_header():
-    print("*" * 80)
-    print("                        CANDY STORE DATA PROCESSING SYSTEM")
-    print("                               Analysis Pipeline")
-    print("*" * 80)
-
-
-def print_processing_period(date_range: list):
-    print("\n" + "=" * 80)
-    print("PROCESSING PERIOD")
-    print("-" * 80)
-    print(f"Start Date: {date_range[0]}")
-    print(f"End Date:   {date_range[-1]}")
-    print("=" * 80)
+    return [(start + timedelta(days=i)).strftime("%Y%m%d") for i in range((end - start).days + 1)]
 
 
 def setup_configuration() -> Tuple[Dict, list]:
@@ -68,107 +45,125 @@ def load_config() -> Dict:
     return {
         "mongodb_uri": os.getenv("MONGODB_URI"),
         "mongodb_db": os.getenv("MONGO_DB"),
-        "mongodb_collection_prefix": os.getenv("MONGO_COLLECTION_PREFIX"),
         "mysql_url": os.getenv("MYSQL_URL"),
         "mysql_user": os.getenv("MYSQL_USER"),
         "mysql_password": os.getenv("MYSQL_PASSWORD"),
-        "mysql_db": os.getenv("MYSQL_DB"),
         "customers_table": os.getenv("CUSTOMERS_TABLE"),
         "products_table": os.getenv("PRODUCTS_TABLE"),
         "output_path": os.getenv("OUTPUT_PATH"),
-        "reload_inventory_daily": os.getenv("RELOAD_INVENTORY_DAILY", "false").lower()
-        == "true",
     }
 
 
-def initialize_data_processor(spark: SparkSession, config: Dict) -> DataProcessor:
-    """Initialize and configure the DataProcessor"""
-    print("\nINITIALIZING DATA SOURCES")
-    print("-" * 80)
+def load_dataframes(spark: SparkSession, config: dict, date_range: list):
+    """Load data from MySQL and MongoDB into PySpark DataFrames"""
+    print("\n🔄 Loading MySQL Data into PySpark...")
 
-    data_processor = DataProcessor(spark)
-    data_processor.config = config
-    return data_processor
+    mysql_url = config["mysql_url"]
+    mysql_properties = {
+        "user": config["mysql_user"],
+        "password": config["mysql_password"],
+        "driver": "com.mysql.cj.jdbc.Driver",
+    }
 
+    customers_df = spark.read.jdbc(
+        url=mysql_url, table=config["customers_table"], properties=mysql_properties
+    )
+    print("✅ Loaded Customers Table")
 
-def print_processing_complete(total_cancelled_items: int) -> None:
-    """Print processing completion message"""
-    print("\nPROCESSING COMPLETE")
-    print("=" * 80)
-    print(f"Total Cancelled Items: {total_cancelled_items}")
+    products_df = spark.read.jdbc(
+        url=mysql_url, table=config["products_table"], properties=mysql_properties
+    )
+    print("✅ Loaded Products Table")
 
+    print("\n🔄 Loading MongoDB Data into PySpark...")
+    transactions_dfs = []
+    for date in date_range:
+        collection_name = f"transactions_{date}"
+        print(f"📥 Loading MongoDB Collection: {collection_name}")
 
-def print_daily_summary(orders_df, order_items_df, cancelled_count):
-    """Print summary of daily processing"""
-    processed_items = order_items_df.filter(col("quantity") > 0).count()
-    print("\nDAILY PROCESSING SUMMARY")
-    print("-" * 40)
-    print(f"• Successfully Processed Orders: {orders_df.count()}")
-    print(f"• Successfully Processed Items: {processed_items}")
-    print(f"• Items Cancelled (Inventory): {cancelled_count}")
-    print("-" * 40)
+        try:
+            transactions_df = (
+                spark.read.format("mongo")
+                .option("uri", config["mongodb_uri"])
+                .option("database", config["mongodb_db"])
+                .option("collection", collection_name)
+                .load()
+            )
+            if transactions_df.count() > 0:
+                transactions_dfs.append(transactions_df)
+                print(f"✅ Loaded {collection_name}")
+            else:
+                print(f"⚠️ Warning: {collection_name} is empty. Skipping.")
+        except Exception as e:
+            print(f"⚠️ Warning: Could not load {collection_name}: {str(e)}")
 
+    # Combine all transaction dataframes into a single DataFrame
+    if transactions_dfs:
+        transactions_df = transactions_dfs[0]
+        for df in transactions_dfs[1:]:
+            transactions_df = transactions_df.union(df)
+    else:
+        transactions_df = None
 
-def generate_forecasts(
-    data_processor: DataProcessor, final_daily_summary, output_path: str
-):
-    """Generate and save sales forecasts"""
-    print("\nGENERATING FORECASTS")
-    print("-" * 80)
-
-    try:
-        if final_daily_summary is not None and final_daily_summary.count() > 0:
-            print("Schema before forecasting:", final_daily_summary.printSchema())
-            forecast_df = data_processor.forecast_sales_and_profits(final_daily_summary)
-            if forecast_df is not None:
-                data_processor.save_to_csv(
-                    forecast_df, output_path, "sales_profit_forecast.csv"
-                )
-        else:
-            print("Warning: No daily summary data available for forecasting")
-    except Exception as e:
-        print(f"⚠️  Warning: Could not generate forecasts: {str(e)}")
-        print("Stack trace:", traceback.format_exc())
+    return customers_df, products_df, transactions_df
 
 
 def main():
-    print_header()
+    print("\nStarting Candy Store Data Processing System")
+    print("=" * 80)
 
-    # Setup
     config, date_range = setup_configuration()
-    print_processing_period(date_range)
-
-    # Initialize processor
     spark = create_spark_session()
-    data_processor = DataProcessor(spark)
+    processor = DataProcessor(spark)
+
+    csv_files = [
+        "data/dataset_18/customers.csv",
+        "data/dataset_18/products.csv"
+    ]
+    json_files = [
+        f"data/dataset_18/transactions_{date}.json" for date in date_range
+    ]
+
+    mysql_url = os.getenv("MYSQL_URL")
+    table_names = ["customers", "products"]
 
     try:
-        # Configure and load data
-        data_processor.configure(config)
+        processor.configure(config)
+        processor.load_csv_to_mysql(csv_files, mysql_url, table_names)
 
-        print("Start batch processing for project 2!")
+        if json_files:
+            processor.load_json_to_mongodb(json_files, date_range)
+        else:
+            print("⚠️ Warning: No JSON transaction files found for loading.")
 
-        # Generate forecasts
-        try:
-            # daily_summary_df follows the same schema as the daily_summary that you save to csv
-            # schema:
-            # - date: date - The business date
-            # - num_orders: integer - Total number of orders for the day
-            # - total_sales: decimal(10,2) - Total sales amount for the day
-            # - total_profit: decimal(10,2) - Total profit for the day
-            forecast_df = data_processor.forecast_sales_and_profits(
-                data_processor.daily_summary_df
-            )
-            if forecast_df is not None:
-                data_processor.save_to_csv(
-                    forecast_df, config["output_path"], "sales_profit_forecast.csv"
-                )
-        except Exception as e:
-            print(f"⚠️  Warning: Could not generate forecasts: {str(e)}")
+        print("✅ Data successfully loaded into MySQL & MongoDB!")
+
+        customers_df, products_df, transactions_df = load_dataframes(spark, config, date_range)
+
+        # Debugging: Print schema to check if transaction_id exists
+        print("\n🔍 Transactions Schema:")
+        transactions_df.printSchema()
+
+        # Ensure transactions are properly loaded
+        if transactions_df is None or transactions_df.count() == 0:
+            print("⚠️ No transaction data found. Skipping processing.")
+            return
+
+        processor.products_df = products_df
+        processor.transactions_df = transactions_df  # Now includes all transaction files
+
+        processor.run()
+        forecaster = ProphetForecaster()
+        forecast_input = os.path.join(config["output_path"], "daily_summary.csv")
+        forecast_output = os.path.join(config["output_path"], "sales_profit_forecast.csv")
+        forecaster.run(mysql_url, config["mysql_user"], config["mysql_password"])
+
+        print("\n✅ All processing completed successfully!")
 
     except Exception as e:
-        print(f"\n❌ Error occurred: {str(e)}")
-        raise
+        print(f"Error occurred: {e}")
+        traceback.print_exc()
+
     finally:
         print("\nCleaning up...")
         spark.stop()
