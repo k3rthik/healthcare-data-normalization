@@ -18,7 +18,10 @@ def create_spark_session(app_name: str = "CandyStoreAnalytics") -> SparkSession:
             "org.mongodb.spark:mongo-spark-connector_2.12:3.0.1,mysql:mysql-connector-java:8.0.33",
         )
         .config("spark.mongodb.input.uri", os.getenv("MONGODB_URI"))
-        .config("spark.mongodb.output.uri", f"{os.getenv('MONGODB_URI')}/{os.getenv('MONGO_DB')}")
+        .config(
+            "spark.mongodb.output.uri",
+            f"{os.getenv('MONGODB_URI')}/{os.getenv('MONGO_DB')}",
+        )
         .getOrCreate()
     )
 
@@ -27,7 +30,10 @@ def get_date_range(start_date: str, end_date: str) -> list[str]:
     """Generate a list of dates between start and end date"""
     start = datetime.strptime(start_date, "%Y%m%d")
     end = datetime.strptime(end_date, "%Y%m%d")
-    return [(start + timedelta(days=i)).strftime("%Y%m%d") for i in range((end - start).days + 1)]
+    return [
+        (start + timedelta(days=i)).strftime("%Y%m%d")
+        for i in range((end - start).days + 1)
+    ]
 
 
 def setup_configuration() -> Tuple[Dict, list]:
@@ -116,13 +122,8 @@ def main():
     spark = create_spark_session()
     processor = DataProcessor(spark)
 
-    csv_files = [
-        "data/dataset_18/customers.csv",
-        "data/dataset_18/products.csv"
-    ]
-    json_files = [
-        f"data/dataset_18/transactions_{date}.json" for date in date_range
-    ]
+    csv_files = ["data/dataset_18/customers.csv", "data/dataset_18/products.csv"]
+    json_files = [f"data/dataset_18/transactions_{date}.json" for date in date_range]
 
     mysql_url = os.getenv("MYSQL_URL")
     table_names = ["customers", "products"]
@@ -138,7 +139,9 @@ def main():
 
         print("✅ Data successfully loaded into MySQL & MongoDB!")
 
-        customers_df, products_df, transactions_df = load_dataframes(spark, config, date_range)
+        customers_df, products_df, transactions_df = load_dataframes(
+            spark, config, date_range
+        )
 
         # Debugging: Print schema to check if transaction_id exists
         print("\n🔍 Transactions Schema:")
@@ -150,12 +153,16 @@ def main():
             return
 
         processor.products_df = products_df
-        processor.transactions_df = transactions_df  # Now includes all transaction files
+        processor.transactions_df = (
+            transactions_df  # Now includes all transaction files
+        )
 
         processor.run()
         forecaster = ProphetForecaster()
         forecast_input = os.path.join(config["output_path"], "daily_summary.csv")
-        forecast_output = os.path.join(config["output_path"], "sales_profit_forecast.csv")
+        forecast_output = os.path.join(
+            config["output_path"], "sales_profit_forecast.csv"
+        )
         forecaster.run(mysql_url, config["mysql_user"], config["mysql_password"])
 
         print("\n✅ All processing completed successfully!")

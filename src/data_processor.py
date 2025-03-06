@@ -2,7 +2,14 @@ import os
 from dotenv import load_dotenv
 from pyspark.sql.window import Window
 from pyspark.sql.functions import sum as spark_sum, to_date
-from pyspark.sql.types import StructType, StructField, IntegerType, StringType, ArrayType, DoubleType
+from pyspark.sql.types import (
+    StructType,
+    StructField,
+    IntegerType,
+    StringType,
+    ArrayType,
+    DoubleType,
+)
 from pyspark.sql import SparkSession, DataFrame
 from pyspark.sql import functions as F
 from pyspark.sql.functions import (
@@ -20,12 +27,12 @@ from pyspark.sql.functions import (
     countDistinct,
     first,
     format_number,
-    regexp_replace
+    regexp_replace,
 )
 import glob
 import shutil
 from typing import Dict
-from time_series import ProphetForecaster 
+from time_series import ProphetForecaster
 
 
 class DataProcessor:
@@ -63,7 +70,7 @@ class DataProcessor:
             driver="com.mysql.cj.jdbc.Driver",
             dbtable=table_name,
             user=mysql_user,
-            password=mysql_password
+            password=mysql_password,
         ).mode("overwrite").save()
 
     def load_json_to_mongodb(self, json_paths, date_range):
@@ -86,31 +93,47 @@ class DataProcessor:
 
     def _get_transaction_schema(self):
         """Create schema for transaction data"""
-        return StructType([
-            StructField("transaction_id", IntegerType(), True),
-            StructField("customer_id", IntegerType(), True),
-            StructField("timestamp", StringType(), True),
-            StructField("items", ArrayType(StructType([
-                StructField("product_id", IntegerType(), True),
-                StructField("product_name", StringType(), True),
-                StructField("qty", IntegerType(), True)
-            ])), True)
-        ])
+        return StructType(
+            [
+                StructField("transaction_id", IntegerType(), True),
+                StructField("customer_id", IntegerType(), True),
+                StructField("timestamp", StringType(), True),
+                StructField(
+                    "items",
+                    ArrayType(
+                        StructType(
+                            [
+                                StructField("product_id", IntegerType(), True),
+                                StructField("product_name", StringType(), True),
+                                StructField("qty", IntegerType(), True),
+                            ]
+                        )
+                    ),
+                    True,
+                ),
+            ]
+        )
 
     def _prepare_transaction_df(self, json_path, schema):
         """Read and prepare transaction dataframe"""
         df = self.spark.read.schema(schema).json(json_path)
 
-        return df.select("transaction_id", "customer_id", "timestamp", explode(col("items")).alias("item")) \
-                 .withColumn("product_id", col("item.product_id")) \
-                 .withColumn("product_name", col("item.product_name")) \
-                 .withColumn("qty", col("item.qty"))
+        return (
+            df.select(
+                "transaction_id",
+                "customer_id",
+                "timestamp",
+                explode(col("items")).alias("item"),
+            )
+            .withColumn("product_id", col("item.product_id"))
+            .withColumn("product_name", col("item.product_name"))
+            .withColumn("qty", col("item.qty"))
+        )
 
     def _write_to_mongodb(self, df, mongodb_uri, mongodb_db, collection_name):
         """Write dataframe to MongoDB"""
         df.write.format("mongo").mode("append").options(
-            uri=f"{mongodb_uri}/{mongodb_db}",
-            collection=collection_name
+            uri=f"{mongodb_uri}/{mongodb_db}", collection=collection_name
         ).save()
 
     def generate_orders(self):
@@ -128,20 +151,28 @@ class DataProcessor:
         order_items_df = self._create_orders_line__dataframe()
 
         # Step 2: Aggregate order-level data
-        orders_df = order_items_df.groupBy("order_id").agg(
-            format_number(spark_sum(col("line_total")), 2).alias("total_amount"),  # Compute total price per order
-            count(col("product_id")).alias("num_items")  # Count distinct products per order
-        ).orderBy("order_id")  # Ensure sorting
+        orders_df = (
+            order_items_df.groupBy("order_id")
+            .agg(
+                format_number(spark_sum(col("line_total")), 2).alias(
+                    "total_amount"
+                ),  # Compute total price per order
+                count(col("product_id")).alias(
+                    "num_items"
+                ),  # Count distinct products per order
+            )
+            .orderBy("order_id")
+        )  # Ensure sorting
 
         # Step 3: Join with original transaction data to get order timestamps and customer IDs
         orders_df = orders_df.join(
             self.transactions_df.select(
                 col("transaction_id").alias("order_id"),
                 col("timestamp").alias("order_datetime"),
-                col("customer_id")
+                col("customer_id"),
             ).distinct(),
             on="order_id",
-            how="left"
+            how="left",
         )
 
         # Step 4: Select final columns and return
@@ -150,7 +181,7 @@ class DataProcessor:
             col("order_datetime"),
             col("customer_id"),
             col("total_amount"),
-            col("num_items")
+            col("num_items"),
         ).orderBy("order_id")
 
     def _check_data_availability(self):
@@ -163,16 +194,20 @@ class DataProcessor:
     def _create_orders_line__dataframe(self):
         """Transform transaction data into order_line_items table with stock validation"""
         # Step 1: Explode transaction items and order by order_id, product_id
-        order_items_df = self.transactions_df.select(
-            col("transaction_id").alias("order_id"),
-            col("timestamp"),
-            explode(col("items")).alias("item")
-        ).select(
-            col("order_id"),
-            col("timestamp"),
-            col("item.product_id"),
-            col("item.qty").alias("quantity")
-        ).orderBy("order_id", "product_id")  # Ensure sorting
+        order_items_df = (
+            self.transactions_df.select(
+                col("transaction_id").alias("order_id"),
+                col("timestamp"),
+                explode(col("items")).alias("item"),
+            )
+            .select(
+                col("order_id"),
+                col("timestamp"),
+                col("item.product_id"),
+                col("item.qty").alias("quantity"),
+            )
+            .orderBy("order_id", "product_id")
+        )  # Ensure sorting
 
         # Step 2: Remove order items where quantity is NULL
         order_items_df = order_items_df.filter(col("quantity").isNotNull())
@@ -180,25 +215,27 @@ class DataProcessor:
         # Step 3: Join with products_df to get unit_price and stock
         order_items_df = order_items_df.join(
             self.products_df.select(
-                col("product_id"),
-                col("sales_price").alias("unit_price"),
-                col("stock")
+                col("product_id"), col("sales_price").alias("unit_price"), col("stock")
             ),
             on="product_id",
-            how="left"
+            how="left",
         )
 
         # Step 4: Convert stock values to a dictionary for sequential tracking
-        stock_tracker = self.products_df.select("product_id", "stock").rdd.collectAsMap()
+        stock_tracker = self.products_df.select(
+            "product_id", "stock"
+        ).rdd.collectAsMap()
 
         # Step 5: Define schema to prevent PySpark type mismatch
-        schema = StructType([
-            StructField("order_id", IntegerType(), False),
-            StructField("product_id", IntegerType(), False),
-            StructField("quantity", IntegerType(), False),
-            StructField("unit_price", DoubleType(), False),
-            StructField("line_total", DoubleType(), False),
-        ])
+        schema = StructType(
+            [
+                StructField("order_id", IntegerType(), False),
+                StructField("product_id", IntegerType(), False),
+                StructField("quantity", IntegerType(), False),
+                StructField("unit_price", DoubleType(), False),
+                StructField("line_total", DoubleType(), False),
+            ]
+        )
 
         # Step 6: Apply stock validation and update stock dynamically
         valid_items = []
@@ -217,16 +254,24 @@ class DataProcessor:
             else:
                 # Set quantity and total to zero if stock is insufficient
                 requested_qty = 0
-                line_total = float(0)  # **Fix: Ensure line_total is explicitly a float**
+                line_total = float(
+                    0
+                )  # **Fix: Ensure line_total is explicitly a float**
 
             # Append valid item with correct types
-            valid_items.append((order_id, product_id, requested_qty, unit_price, line_total))
+            valid_items.append(
+                (order_id, product_id, requested_qty, unit_price, line_total)
+            )
 
         # Convert valid order items to a PySpark DataFrame with defined schema
-        processed_order_items_df = self.spark.createDataFrame(valid_items, schema=schema)
+        processed_order_items_df = self.spark.createDataFrame(
+            valid_items, schema=schema
+        )
 
         # Step 7: Fix the `.fillna()` issue by replacing column reference with a literal value
-        processed_order_items_df = processed_order_items_df.fillna({"quantity": 0, "line_total": 0.0})
+        processed_order_items_df = processed_order_items_df.fillna(
+            {"quantity": 0, "line_total": 0.0}
+        )
 
         # Step 8: Format line_total properly using PySpark function
         return processed_order_items_df.select(
@@ -234,7 +279,9 @@ class DataProcessor:
             col("product_id"),
             col("quantity"),
             format_number(col("unit_price"), 2).alias("unit_price"),
-            format_number(col("line_total"), 2).alias("line_total")  # Handling rounding here
+            format_number(col("line_total"), 2).alias(
+                "line_total"
+            ),  # Handling rounding here
         ).orderBy("order_id", "product_id")
 
     def _explode_transactions(self):
@@ -243,13 +290,13 @@ class DataProcessor:
             col("transaction_id").alias("order_id"),
             col("timestamp").alias("order_datetime"),
             col("customer_id"),
-            explode(col("items")).alias("item")
+            explode(col("items")).alias("item"),
         ).select(
             col("order_id"),
             col("order_datetime"),
             col("customer_id"),
             col("item.product_id"),
-            col("item.qty").alias("quantity")
+            col("item.qty").alias("quantity"),
         )
         # Debug: Print all rows in the exploded DataFrame
         print("DEBUG: Exploded Transactions Data:")
@@ -261,13 +308,12 @@ class DataProcessor:
         joined_df = df.join(
             self.products_df.select(
                 col("product_id"),
-                col("sales_price").alias("unit_price")  # Explicitly renaming
+                col("sales_price").alias("unit_price"),  # Explicitly renaming
             ),
-            on="product_id", 
-            how="left"
+            on="product_id",
+            how="left",
         )
 
-    
     def generate_order_line_items(self):
         """Generate order_line_items.csv with stock validation"""
         if not self._check_data_availability():
@@ -277,19 +323,21 @@ class DataProcessor:
         self._save_as_csv(order_items_df, "order_line_items.csv")
         print(f"✅ Generated {os.path.join(self.output_path, 'order_line_items.csv')}")
 
-    
-
         # Step 4: Convert stock values to a dictionary for sequential tracking
-        stock_tracker = self.products_df.select("product_id", "stock").rdd.collectAsMap()
+        stock_tracker = self.products_df.select(
+            "product_id", "stock"
+        ).rdd.collectAsMap()
 
         # Step 5: Define schema to prevent PySpark type mismatch
-        schema = StructType([
-            StructField("order_id", IntegerType(), False),
-            StructField("product_id", IntegerType(), False),
-            StructField("quantity", IntegerType(), False),
-            StructField("unit_price", DoubleType(), False),
-            StructField("line_total", DoubleType(), False),
-        ])
+        schema = StructType(
+            [
+                StructField("order_id", IntegerType(), False),
+                StructField("product_id", IntegerType(), False),
+                StructField("quantity", IntegerType(), False),
+                StructField("unit_price", DoubleType(), False),
+                StructField("line_total", DoubleType(), False),
+            ]
+        )
 
         # Step 6: Apply stock validation and update stock dynamically
         valid_items = []
@@ -308,15 +356,23 @@ class DataProcessor:
             else:
                 # Set quantity and total to zero if stock is insufficient
                 requested_qty = 0
-                line_total = float(0)  # **Fix: Ensure line_total is explicitly a float**
+                line_total = float(
+                    0
+                )  # **Fix: Ensure line_total is explicitly a float**
 
-                print(f"❌ Item {product_id} in Order {order_id} was canceled due to insufficient stock.")
+                print(
+                    f"❌ Item {product_id} in Order {order_id} was canceled due to insufficient stock."
+                )
 
             # Append valid item with correct types
-            valid_items.append((order_id, product_id, requested_qty, unit_price, line_total))
+            valid_items.append(
+                (order_id, product_id, requested_qty, unit_price, line_total)
+            )
 
         # Convert valid order items to a PySpark DataFrame with defined schema
-        processed_order_items_df = self.spark.createDataFrame(valid_items, schema=schema)
+        processed_order_items_df = self.spark.createDataFrame(
+            valid_items, schema=schema
+        )
 
         # Step 7: Format line_total properly using PySpark function
         return processed_order_items_df.select(
@@ -324,10 +380,11 @@ class DataProcessor:
             col("product_id"),
             col("quantity"),
             col("unit_price"),
-            format_number(col("line_total"), 2).alias("line_total")  # Handling rounding here
+            format_number(col("line_total"), 2).alias(
+                "line_total"
+            ),  # Handling rounding here
         ).orderBy("order_id", "product_id")
 
-    
     def update_inventory(self):
         """Update inventory and generate products_updated.csv"""
         if not self._check_data_availability():
@@ -350,31 +407,48 @@ class DataProcessor:
         # Ensure order_items_df is valid before proceeding
         if order_items_df is None or order_items_df.count() == 0:
             print("⚠️ No valid order line items found. Returning empty DataFrame.")
-            return self.spark.createDataFrame([], self.products_df.schema)  # Return empty DataFrame instead of None
+            return self.spark.createDataFrame(
+                [], self.products_df.schema
+            )  # Return empty DataFrame instead of None
 
         # Step 1: Compute total sold items per product using order_line_items.csv
         sold_items = order_items_df.groupBy("product_id").agg(
-            spark_sum(col("quantity")).alias("total_sold")  # Using quantity instead of num_items
+            spark_sum(col("quantity")).alias(
+                "total_sold"
+            )  # Using quantity instead of num_items
         )
 
         # Step 2: Join with products to get updated stock
-        updated_inventory_df = self.products_df.join(sold_items, "product_id", "left_outer") \
-            .fillna(0, ["total_sold"]) \
-            .withColumn("updated_stock", when((col("stock") - col("total_sold")) < 0, 0)
-                        .otherwise(col("stock") - col("total_sold"))) \
-            .select("product_id", "product_name", col("updated_stock").alias("current_stock")) \
+        updated_inventory_df = (
+            self.products_df.join(sold_items, "product_id", "left_outer")
+            .fillna(0, ["total_sold"])
+            .withColumn(
+                "updated_stock",
+                when((col("stock") - col("total_sold")) < 0, 0).otherwise(
+                    col("stock") - col("total_sold")
+                ),
+            )
+            .select(
+                "product_id",
+                "product_name",
+                col("updated_stock").alias("current_stock"),
+            )
             .orderBy("product_id")
+        )
 
         return updated_inventory_df
 
     def _calculate_sold_items(self):
         """Calculate total sold items per product"""
-        return self.transactions_df.select(
-            explode(col("items")).alias("item")
-        ).select(
-            col("item.product_id").alias("product_id"),
-            col("item.qty").alias("sold_qty")
-        ).groupBy("product_id").agg(spark_sum("sold_qty").alias("total_sold"))
+        return (
+            self.transactions_df.select(explode(col("items")).alias("item"))
+            .select(
+                col("item.product_id").alias("product_id"),
+                col("item.qty").alias("sold_qty"),
+            )
+            .groupBy("product_id")
+            .agg(spark_sum("sold_qty").alias("total_sold"))
+        )
 
     def aggregate_daily_sales(self):
         """Generate daily_summary.csv and store it in MySQL"""
@@ -385,7 +459,7 @@ class DataProcessor:
         self.transactions_df.show(5)  # Debugging step
 
         self.daily_summary_df = self._create_daily_summary_dataframe()
-        
+
         if self.daily_summary_df is None or self.daily_summary_df.count() == 0:
             print("⚠️ No valid daily sales data found. Skipping file generation.")
             return  # Stop execution if no data
@@ -399,17 +473,17 @@ class DataProcessor:
         mysql_password = self.config["mysql_password"]
 
         self._write_to_mysql(
-            self.daily_summary_df, 
-            mysql_url, 
-            "daily_summary", 
-            mysql_user, 
-            mysql_password
+            self.daily_summary_df,
+            mysql_url,
+            "daily_summary",
+            mysql_user,
+            mysql_password,
         )
         print("✅ Stored daily_summary in MySQL")
 
     def _create_orders_with_products_dataframe(self):
         """Creates an orders DataFrame that includes product_id for joining with product costs"""
-        
+
         # Step 1: Generate order line items (which contain product_id)
         order_items_df = self.generate_order_line_items()
 
@@ -424,11 +498,11 @@ class DataProcessor:
             order_items_df["product_id"],
             orders_df["order_datetime"],
             orders_df["total_amount"],
-            orders_df["num_items"]
+            orders_df["num_items"],
         )
 
         return orders_with_products_df
-   
+
     def _create_daily_summary_dataframe(self):
         """Generate the daily summary DataFrame using orders and product costs"""
 
@@ -442,9 +516,11 @@ class DataProcessor:
         order_line_items_profit_df = order_line_items_df.join(
             self.products_df.select("product_id", "cost_to_make"),
             on="product_id",
-            how="left"
+            how="left",
         ).withColumn(
-            "profit", (col("unit_price").cast("double") - col("cost_to_make").cast("double")) * col("quantity")
+            "profit",
+            (col("unit_price").cast("double") - col("cost_to_make").cast("double"))
+            * col("quantity"),
         )
 
         # Step 4: Aggregate profit per order
@@ -453,7 +529,9 @@ class DataProcessor:
         )
 
         # Step 5: Join profit data with orders
-        orders_with_profit_df = orders_df.join(order_profit_df, on="order_id", how="left")
+        orders_with_profit_df = orders_df.join(
+            order_profit_df, on="order_id", how="left"
+        )
 
         # Step 6: Prepare formatted orders DataFrame
         formatted_orders_df = orders_with_profit_df.select(
@@ -461,20 +539,27 @@ class DataProcessor:
             col("order_datetime"),
             col("customer_id"),
             col("total_amount"),
-            col("profit")
+            col("profit"),
         ).orderBy("order_datetime")
 
         # Step 7: Convert `order_datetime` to `date` format
-        daily_summary_df = formatted_orders_df.withColumn(
-            "date", date_format(col("order_datetime").cast("timestamp"), "yyyy-MM-dd")
-        ).groupBy("date").agg(
-            count("order_id").alias("num_orders"),
-            regexp_replace(format_number(spark_sum(col("total_amount")), 2), ",", "").alias("total_sales"),
-            round(spark_sum("profit"), 2).alias("total_profit")
-        ).orderBy("date")
+        daily_summary_df = (
+            formatted_orders_df.withColumn(
+                "date",
+                date_format(col("order_datetime").cast("timestamp"), "yyyy-MM-dd"),
+            )
+            .groupBy("date")
+            .agg(
+                count("order_id").alias("num_orders"),
+                regexp_replace(
+                    format_number(spark_sum(col("total_amount")), 2), ",", ""
+                ).alias("total_sales"),
+                round(spark_sum("profit"), 2).alias("total_profit"),
+            )
+            .orderBy("date")
+        )
 
         return daily_summary_df
-    
 
     def _prepare_daily_sales_data(self):
         """Prepare data for daily sales aggregation"""
@@ -482,35 +567,38 @@ class DataProcessor:
             col("transaction_id"),
             col("customer_id"),
             explode(col("items")).alias("item"),
-            col("timestamp")
+            col("timestamp"),
         ).select(
             col("transaction_id"),
             col("customer_id"),
             col("item.product_id"),
             col("item.qty"),
-            col("timestamp")
+            col("timestamp"),
         )
-        
-        return daily_sales_df.join(
-            self.products_df.select("product_id", "sales_price", "cost_to_make"), 
-            on="product_id", 
-            how="left"
-        ).withColumnRenamed("sales_price", "unit_price") \
-        .withColumnRenamed("cost_to_make", "cost_price")
+
+        return (
+            daily_sales_df.join(
+                self.products_df.select("product_id", "sales_price", "cost_to_make"),
+                on="product_id",
+                how="left",
+            )
+            .withColumnRenamed("sales_price", "unit_price")
+            .withColumnRenamed("cost_to_make", "cost_price")
+        )
 
     def _save_as_csv(self, df, filename):
         """Save dataframe as CSV with specified filename"""
         # Create output directory path
         output_file = os.path.join(self.output_path, filename.replace(".csv", ""))
-        
+
         # Delete directory if it exists (to avoid conflicts)
         if os.path.exists(output_file):
             shutil.rmtree(output_file, ignore_errors=True)
-        
+
         # Write as a single file with header
         df = df.dropna(how="any")  # Drop columns with only NULL values
         df.coalesce(1).write.option("header", "true").csv(output_file)
-        
+
         # Rename the part file to the desired filename
         self._rename_part_file(output_file, filename)
 
@@ -521,17 +609,17 @@ class DataProcessor:
         if not part_files:
             print(f"⚠️ Warning: No part file found in {directory}")
             return
-            
+
         # Get first part file
         part_file = part_files[0]
-        
+
         # Create the target filepath
         target_path = os.path.join(self.output_path, target_filename)
-        
+
         # Rename the file
         try:
             shutil.copy2(part_file, target_path)
-            
+
             # Clean up the part file directory
             shutil.rmtree(directory)
         except Exception as e:
@@ -539,46 +627,64 @@ class DataProcessor:
 
     def generate_sales_profit_forecast(self):
         """Generate sales_profit_forecast.csv using time series forecasting"""
-        
+
         # Ensure daily_summary exists
         daily_summary_path = os.path.join(self.output_path, "daily_summary.csv")
         if not os.path.exists(daily_summary_path):
             print("⚠️ No daily summary data found! Skipping forecasting.")
             return
-        
+
         # Load daily_summary.csv
-        daily_summary_df = self.spark.read.csv(daily_summary_path, header=True, inferSchema=True)
-        
+        daily_summary_df = self.spark.read.csv(
+            daily_summary_path, header=True, inferSchema=True
+        )
+
         # Prepare data for forecasting
-        sales_data = daily_summary_df.select("total_sales").rdd.map(lambda row: float(row["total_sales"])).collect()
-        profit_data = daily_summary_df.select("total_profit").rdd.map(lambda row: float(row["total_profit"])).collect()
-        
+        sales_data = (
+            daily_summary_df.select("total_sales")
+            .rdd.map(lambda row: float(row["total_sales"]))
+            .collect()
+        )
+        profit_data = (
+            daily_summary_df.select("total_profit")
+            .rdd.map(lambda row: float(row["total_profit"]))
+            .collect()
+        )
+
         # Initialize forecasting model for total sales
         sales_forecaster = ProphetForecaster()  # Create a new instance for sales
         sales_forecaster.fit(sales_data)  # Fit Prophet model on total sales data
-        sales_forecast = sales_forecaster.predict(forecast_days=1)[0]  # Forecast for 1 day (Feb 11th, 2024)
+        sales_forecast = sales_forecaster.predict(forecast_days=1)[
+            0
+        ]  # Forecast for 1 day (Feb 11th, 2024)
 
         # Initialize forecasting model for total profit
         profit_forecaster = ProphetForecaster()  # Create a new instance for profit
         profit_forecaster.fit(profit_data)  # Fit Prophet model on total profit data
-        profit_forecast = profit_forecaster.predict(forecast_days=1)[0]  # Forecast for 1 day (Feb 11th, 2024)
+        profit_forecast = profit_forecaster.predict(forecast_days=1)[
+            0
+        ]  # Forecast for 1 day (Feb 11th, 2024)
 
         # Prepare the data in the expected format for Spark
         forecast_data = [("2024-02-11", float(sales_forecast), float(profit_forecast))]
 
         # Define the schema for the DataFrame
-        forecast_schema = StructType([
-            StructField("date", StringType(), True),
-            StructField("forecasted_sales", DoubleType(), True),
-            StructField("forecasted_profit", DoubleType(), True)
-        ])
-        
+        forecast_schema = StructType(
+            [
+                StructField("date", StringType(), True),
+                StructField("forecasted_sales", DoubleType(), True),
+                StructField("forecasted_profit", DoubleType(), True),
+            ]
+        )
+
         # Create a Spark DataFrame with the forecasted data
         forecast_df = self.spark.createDataFrame(forecast_data, schema=forecast_schema)
-        
+
         # Save the forecast results to CSV
         self._save_as_csv(forecast_df, "sales_profit_forecast.csv")
-        print(f"✅ Generated {os.path.join(self.output_path, 'sales_profit_forecast.csv')}")
+        print(
+            f"✅ Generated {os.path.join(self.output_path, 'sales_profit_forecast.csv')}"
+        )
 
     def run(self):
         """Run the entire processing pipeline"""
