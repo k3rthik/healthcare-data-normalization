@@ -33,7 +33,7 @@ The dataset includes various information related to customers, products, and ord
 
  Each transaction file consists of:
 
-    ```json
+    
     {
     "transaction_id": 73434473,
     "customer_id": 29,
@@ -43,18 +43,18 @@ The dataset includes various information related to customers, products, and ord
         {"product_id": 3, "product_name": "Candy B", "qty": 2}
     ]
     }
-    ```
+    
 
 ### Required Software Packages
 
 To set up your environment for the project, the following packages must be installed:
 
-    ```bash
+    
     pip install apache-airflow
     pip install pyspark
     pip install python-dotenv
     pip install prophet
-    ```
+    
 
 ### 📝 Setup Instructions and Expected Outputs
 
