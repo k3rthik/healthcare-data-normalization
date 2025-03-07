@@ -114,19 +114,19 @@ To set up your environment for the project, the following packages must be insta
 5. Copy the DAG script (order_processing_dag.py) to the ~/airflow/dags directory.
 
 6. Access Airflow UI:
-	•	Open a web browser and visit http://localhost:8080.
-	•	Log in with your credentials.
-	•	Locate order_processing_dag in the DAGs list and toggle it to make it active.
-	•	Open the order_processing_dag and click the Play button at the top right to run it.
+-	Open a web browser and visit http://localhost:8080.
+-	Log in with your credentials.
+-	Locate order_processing_dag in the DAGs list and toggle it to make it active.
+-	Open the order_processing_dag and click the Play button at the top right to run it.
 
 📂 Project Structure
-	•	src/
-	•	data_processor.py: Contains methods for processing data (e.g., validating transactions, checking inventory, etc.)
-	•	main.py: Main script that runs the ETL pipeline and orchestrates tasks.
-	•	time_series.py: Contains logic for forecasting sales and profits.
-	•	data/
-	•	candy_store.sql: MySQL database dump for customers, products, and transactions.
-	•	transactions.json: MongoDB raw order transaction data.
-	•	.env.example: Template for environment variables (fill in your own database credentials).
-	•	config.yaml: Configuration file for specifying various pipeline parameters like paths and database connections.
+-	src/
+-	data_processor.py: Contains methods for processing data (e.g., validating transactions, checking inventory, etc.)
+-	main.py: Main script that runs the ETL pipeline and orchestrates tasks.
+-	time_series.py: Contains logic for forecasting sales and profits.
+-	data/
+-	candy_store.sql: MySQL database dump for customers, products, and transactions.
+-	transactions.json: MongoDB raw order transaction data.
+-	.env.example: Template for environment variables (fill in your own database credentials).
+-	config.yaml: Configuration file for specifying various pipeline parameters like paths and database connections.
 
