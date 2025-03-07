@@ -62,22 +62,22 @@ To set up your environment for the project, the following packages must be insta
 
 •	Create a virtual environment in your project directory:
 
-    ```bash
+    
     python3 -m venv venv
-    ```
+    
 •	Activate the virtual environment:
 
-    ```bash
+    
     source venv/bin/activate
-    ```
+    
 
 2. Running the Code
 
 •	After activating the virtual environment, run the main script from the project-2 directory:
 
-    ```bash
+    
     python3 src/main.py
-    ```
+    
 
 ### Airflow DAG Setup
 
