@@ -5,29 +5,31 @@
 Tiger’s Candy, a popular candy store originating from the RIT campus, has seen substantial growth. To manage its expanding operations, the store needs an automated system that processes online orders in batches.
 
 This project implements a batch processing ETL (Extract, Transform, Load) pipeline to handle raw order transactions on a daily basis. The pipeline performs essential tasks such as:
-	•	Validating transaction details ✅
-	•	Checking inventory levels 📦
-	•	Forecasting sales and profits 📊
+-   Validating transaction details ✅
+-   Checking inventory levels 📦
+-   Forecasting sales and profits 📊
 
 ### 📊 Dataset Overview
 
 The dataset includes various information related to customers, products, and order transactions.
 
-👥 Customers Dataset
-	•	customer_id: Unique identifier for each customer
-	•	first_name: First name of the customer
-	•	last_name: Last name of the customer
-	•	email: Customer’s email address
-	•	address: Physical address of the customer
-	•	phone: Phone number of the customer
+#### 👥 Customers Dataset
 
-🍫 Products Dataset
-	•	product_id: Unique identifier for each product
-	•	product_name: Name of the product
-	•	product_category: Category of candy (e.g., Chocolate, Gummy)
-	•	sales_price: Retail price of the product
-	•	cost_to_make: Manufacturing cost of the product
-	•	stock: Inventory level of the product
+-   customer_id: Unique identifier for each customer
+-   first_name: First name of the customer
+-   last_name: Last name of the customer
+-   email: Customer’s email address
+-   address: Physical address of the customer
+-   phone: Phone number of the customer
+
+#### 🍫 Products Dataset
+
+-   product_id: Unique identifier for each product
+-   product_name: Name of the product
+-   product_category: Category of candy (e.g., Chocolate, Gummy)
+-   sales_price: Retail price of the product
+-   cost_to_make: Manufacturing cost of the product
+-   stock: Inventory level of the product
 
  Order Transactions (Raw JSON Format)
 
@@ -119,7 +121,7 @@ To set up your environment for the project, the following packages must be insta
 -	Locate order_processing_dag in the DAGs list and toggle it to make it active.
 -	Open the order_processing_dag and click the Play button at the top right to run it.
 
-📂 Project Structure
+### 📂 Project Structure
 -	src/
 -	data_processor.py: Contains methods for processing data (e.g., validating transactions, checking inventory, etc.)
 -	main.py: Main script that runs the ETL pipeline and orchestrates tasks.
