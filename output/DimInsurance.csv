@@ -1,0 +1,560 @@
+insurance_id,patient_id,insurance_payer_name,insurance_policy_number,insurance_group_number,insurance_plan_type
+00d28268,cb176610,Mullins-Dean,f7825d90-020,83f50d0b,Medicare
+01cbe45a,97e794bc,"Dixon, Maldonado and Murray",1c606faf-c50,076847a7,PPO
+02990d4f,bc8fdb7c,"Dixon, Maldonado and Murray",a75dc279-7c5,20f196a4,Medicaid
+02c260b1,aa0be9be,Gonzales LLC,c11cdcea-c29,4e9ebdfb,HMO
+02e8b061,65e5f330,Mullins-Dean,087cfc02-1c5,6c04a988,HMO
+03d28f88,8fe1cbfe,"Dixon, Maldonado and Murray",b45984af-556,8d47f7c6,HMO
+03e66a5d,48d1fe58,Pena-Nash,03ab4f6c-781,5a2c54a9,HMO
+042ce798,c397ff89,Mullins-Dean,d8dba53d-052,9ede945b,PPO
+04bab76b,3156e21c,Gonzales LLC,489105b9-770,fea7de12,PPO
+05c17c14,1ed28437,Gonzales LLC,55320fe8-9ff,99203d59,Medicaid
+0647072f,b254f77f,Pena-Nash,526490df-9c4,ed2f2a16,PPO
+066dd3ca,3ac923f6,Mullins-Dean,7cd00a99-e2b,4fbb77c8,Medicaid
+06f56104,4270966e,Gonzales LLC,9920ca8e-a27,97c3e632,HMO
+07148752,bea3e000,"Lopez, Lawrence and Williams",074e98dd-29c,6a9c4fcc,Medicare
+0781a978,8522d2a9,"Lopez, Lawrence and Williams",b141144b-eb7,6db031e6,Medicare
+078afd72,8953e4c3,"Dixon, Maldonado and Murray",1249c3b4-0bd,d62a6896,Medicaid
+07a2985e,d68603ee,"Dixon, Maldonado and Murray",3645db87-9d8,ca0727a4,PPO
+081093a5,201b8953,"Dixon, Maldonado and Murray",93b460e7-8ae,398a917a,HMO
+0861f2af,8fb214ed,"Dixon, Maldonado and Murray",6cacb834-97a,337f9f58,PPO
+08822ae0,dcfdbf33,Pena-Nash,af40abfc-ba2,19265fa8,PPO
+092bc265,91bf697a,"Lopez, Lawrence and Williams",bfbaa9c2-06e,cd991f4a,PPO
+09525876,cdfbf326,"Lopez, Lawrence and Williams",35a963b4-3ab,d45eb77b,Medicaid
+0a50be52,3d4061f4,"Dixon, Maldonado and Murray",6e00f3f5-bc5,c3b61b7d,PPO
+0aa2f930,a9909e76,Gonzales LLC,91081247-4d6,5a1b9e55,HMO
+0bdbeeea,7e437b10,Gonzales LLC,afa2d8b0-d8c,bb8744b1,PPO
+0c14b704,e9491a74,Gonzales LLC,219727ed-1a6,469dea03,PPO
+0e010c14,8d717bec,Gonzales LLC,68aa5028-a61,bb9cd283,Medicare
+0e24fdc0,a29ef68f,"Lopez, Lawrence and Williams",75df22c1-475,7ba1cd7c,PPO
+0e886ba7,73f5b218,"Lopez, Lawrence and Williams",9d45f6e4-1dd,f2741d09,PPO
+0f896b6c,aecb75ed,Mullins-Dean,b30e5046-54a,7292d041,PPO
+0f9c22c8,3602d370,Mullins-Dean,3fff8e0b-522,79aaf7e8,Medicaid
+0ff19ae6,10594cba,"Dixon, Maldonado and Murray",16198b66-133,475b7145,Medicare
+107cc4c4,f04a3361,"Lopez, Lawrence and Williams",13e2b13b-59d,cf351638,PPO
+10af3d4f,f39c4dde,"Dixon, Maldonado and Murray",cc154b1e-c7d,929a0676,PPO
+10b661f4,ae430808,Mullins-Dean,11321bd4-1c4,3ecf9c83,Medicare
+11d052f3,72a80ac9,Gonzales LLC,e46395d6-44b,e4e89341,HMO
+125b5b7a,58f1ed28,"Dixon, Maldonado and Murray",c3dbcb53-a78,b73ea32a,Medicare
+129d7996,87f32c7c,Gonzales LLC,f6f477ec-2db,8608852a,Medicaid
+1318e49d,55e18bd4,Gonzales LLC,80b47405-29e,32159945,HMO
+13482bd4,fea5680b,Pena-Nash,433ab4e5-0d4,fd966625,PPO
+134d8c53,f8332a46,"Lopez, Lawrence and Williams",fb4e6072-1a0,b936e613,PPO
+1364d6be,0c7d839e,"Dixon, Maldonado and Murray",dff62b7c-07b,9ba88aee,Medicaid
+140b7b46,a7a8868d,Gonzales LLC,a494fa73-bd2,4f9f5ed7,PPO
+14e4ea39,cedc51da,"Lopez, Lawrence and Williams",5f0942ff-48f,8e925b1b,Medicare
+150f74ea,23df1524,"Dixon, Maldonado and Murray",0fdbbd37-e13,276888e7,Medicare
+158fef74,47d69a1e,Gonzales LLC,23ab0ac0-f33,5a06bc41,Medicare
+160845be,1dc1de7f,"Lopez, Lawrence and Williams",f7fc1807-f02,b0f9276b,Medicaid
+16412572,592bd7e0,"Lopez, Lawrence and Williams",f65b2070-a51,015e9f4f,HMO
+172ca02b,c4b4ab82,Gonzales LLC,4dfe7068-18d,53b72fb4,Medicaid
+1831a342,ecf40ba6,"Lopez, Lawrence and Williams",4207c8e3-f01,90f81fde,HMO
+183ab914,924992d9,"Dixon, Maldonado and Murray",8b1f6254-e07,698ca429,Medicare
+1840f4ed,fd3232f7,Mullins-Dean,25da2ae4-7c0,cbe3009c,Medicaid
+186cb2e1,b92237fd,Mullins-Dean,27bdd51c-5e7,2d3090ea,HMO
+188040ba,380f8634,"Lopez, Lawrence and Williams",cc82898b-cf5,f8175c5a,HMO
+192d05b4,66f855d0,Gonzales LLC,374c9cdb-234,fb4009bf,PPO
+1a78f060,490ffdd9,"Lopez, Lawrence and Williams",fa28a930-807,2a8cec0d,HMO
+1a8c6154,e099af36,Mullins-Dean,6acb84ca-065,6ddbb4d4,Medicaid
+1a8d88ca,7b3f3fee,Pena-Nash,5fbae8b0-630,435528ec,Medicaid
+1ab6445e,7275d1d4,"Lopez, Lawrence and Williams",8dd3fa61-5d2,a0966091,HMO
+1b0fb92c,305ae70b,"Lopez, Lawrence and Williams",8728ffe9-396,ff16721e,Medicare
+1b4716f2,1def8ef3,Gonzales LLC,aff7f3a6-c3e,7052ed7d,HMO
+1b5b72be,411a10ba,Mullins-Dean,285f2b31-b09,d4fddbe7,HMO
+1ce4567f,a6f41271,Gonzales LLC,48ffbc92-2e2,87afccae,Medicare
+1cf1d8f0,6a2cf9b2,"Dixon, Maldonado and Murray",24cd344a-9b8,bb631f9c,Medicare
+1cff02af,f93d4376,Gonzales LLC,6006fb80-7d7,0933b263,PPO
+1d180e3f,ee4b2f2b,Gonzales LLC,48489b21-a77,6268da72,Medicare
+1d4987cc,949d991b,Mullins-Dean,7759dc09-2aa,f55ff3a7,HMO
+1d6e397e,c3e911db,Pena-Nash,6bab45fb-623,1e1c0437,Medicare
+1d881464,451e81e9,Gonzales LLC,8d25e33e-f99,9aeef994,Medicare
+1de5ca9f,e2450620,Mullins-Dean,0f9a7c28-733,542eb1b3,Medicaid
+1e267778,9928d1d1,"Lopez, Lawrence and Williams",735d2893-26b,bf118231,Medicaid
+1e297466,0fc90aa9,Pena-Nash,5ab55887-151,bad04a1a,PPO
+1e8a3372,8f2240df,Pena-Nash,c7effef8-d7a,2f74b1a3,Medicare
+1ea7b298,785b1655,Pena-Nash,01a0f405-54d,611e8ed1,PPO
+1f06a830,a80c98c8,Gonzales LLC,9ee1ffbb-d7b,71d49193,Medicaid
+1f0cb338,884b32bb,"Dixon, Maldonado and Murray",b1e49025-093,d12a3716,Medicare
+1f2e2b17,5ef682b4,Pena-Nash,6bad1ccf-cd2,67df28db,Medicaid
+1f755f9e,5b3d7757,Pena-Nash,95f7758d-38a,05bb4187,Medicaid
+1f7f169d,6364b874,Mullins-Dean,d47b7da6-b23,4c933ca3,Medicaid
+1f8108dd,54513055,Pena-Nash,9ddbf95b-d27,4537055d,Medicaid
+1fcdc0bf,9b48c4b0,"Dixon, Maldonado and Murray",bbfcb404-2b7,7cfd29c6,Medicare
+20216dc1,a831e196,"Lopez, Lawrence and Williams",57784d22-a69,b863abfb,Medicaid
+205bf58d,1ed4ecb7,Mullins-Dean,2af896aa-f45,cff3e8e9,PPO
+20c5bbd5,3dffda32,"Lopez, Lawrence and Williams",e11dcde9-1fd,58efe749,PPO
+20cb8af7,79137cce,Pena-Nash,f6e78fa4-9fc,80daf297,PPO
+210d250c,6c4b304e,Gonzales LLC,0dca3472-e99,0e458b4f,PPO
+21fdd626,88d8b0bd,Gonzales LLC,b4b4cbee-0be,a5e18dbe,Medicaid
+222c760f,b9b21553,"Lopez, Lawrence and Williams",bc1ce52f-31a,ca86283a,HMO
+23645dd4,7157521e,Gonzales LLC,401ca4cf-285,fc311d24,Medicaid
+23b21a65,6bea3b19,"Lopez, Lawrence and Williams",5d1a94a3-830,b7f5ef99,Medicaid
+240370af,018737c6,"Lopez, Lawrence and Williams",91e7e0dd-afe,b6eea692,Medicaid
+24bee559,dd9f02cc,"Dixon, Maldonado and Murray",24ecaf45-1c7,2ffd7c4d,HMO
+2534a2fb,7a7d231c,Mullins-Dean,4008c382-08d,4ffb981d,Medicare
+2555cef0,5156757a,Mullins-Dean,8b2a6dc6-f91,e09c1aa1,PPO
+25898679,45b268fa,Mullins-Dean,ad0bdf1c-460,876359de,HMO
+2658f4a6,0c35c709,"Lopez, Lawrence and Williams",31ca4d28-686,bf6117eb,Medicare
+27011d1d,2a41080a,Pena-Nash,21fc7586-573,156f6255,Medicare
+2711de8c,745a6475,"Dixon, Maldonado and Murray",a80a403f-382,b2c2d0ba,PPO
+27836cb0,1b1d6812,Gonzales LLC,9f38c0ef-795,df6e8b71,PPO
+289d9bda,046d3d07,"Dixon, Maldonado and Murray",fe5c578f-f86,8b98fb16,Medicare
+28e5e289,1619dd98,Pena-Nash,4690799a-767,c37fee32,Medicare
+2912ee97,794d7abc,Mullins-Dean,b83785d4-2ff,e972bd25,HMO
+292d5c53,386a2144,Pena-Nash,d7653091-300,dd9cc9b4,HMO
+29332ea2,eeb48e60,Pena-Nash,0bab1ec3-8a8,668d4d32,Medicaid
+295d973d,0909eb8a,Mullins-Dean,64df8095-644,cf6b120e,HMO
+2aa0bdce,ff861ce9,Mullins-Dean,d427578f-6db,f93e038a,HMO
+2ab49a21,8def44a2,"Dixon, Maldonado and Murray",fe54169d-ae0,1e322a28,PPO
+2ab54942,4c9d9837,Gonzales LLC,cf3b89ed-2ef,e5402874,HMO
+2ba245fa,246ddec0,"Dixon, Maldonado and Murray",4412e7f7-c26,8bfc8ead,Medicare
+2bfd8e19,d48c85e4,"Lopez, Lawrence and Williams",93528d22-201,5a2aaafc,HMO
+2c79c1b3,b78298cd,"Dixon, Maldonado and Murray",4d3b47c5-39b,bf816c77,PPO
+2d4119e7,a51a41bb,Pena-Nash,903cea1d-ed0,4065f929,Medicare
+2d92107d,192a1485,Mullins-Dean,03132b9a-50d,3f836bf9,PPO
+2dcdc489,6869f19a,Pena-Nash,6d112eb2-6db,03ff5c8b,Medicare
+2e5d2fed,507ec907,Gonzales LLC,262dceab-836,2c9c6f79,HMO
+2ea21562,71e9e456,"Dixon, Maldonado and Murray",3a98924c-3ac,9e8fab5c,PPO
+2ebac000,f2ed3425,Pena-Nash,1403a5aa-9ab,938bd9c7,Medicaid
+2ed764b2,f3b08f69,Pena-Nash,afadd3ef-a5b,6831c2e8,PPO
+2f6086b8,016dbc3c,Pena-Nash,6220eaac-ad3,2b4aa496,Medicare
+30eb0188,f640e7e8,Mullins-Dean,a1ab6826-37d,568a7566,HMO
+310bd984,f8eeffcb,Gonzales LLC,5e24ee2a-748,16f3886a,Medicare
+31cff08a,87083926,Pena-Nash,5cf4681f-431,7967ad44,HMO
+325bc1e9,1d29f62b,Pena-Nash,c14c0441-de6,66190918,HMO
+33007114,04065d8d,"Dixon, Maldonado and Murray",5f0e57d0-b31,9d3e8f0d,Medicare
+33effb7f,7621af03,Mullins-Dean,ae0a058f-5c3,bd8ca79e,HMO
+34379e43,d9ee1797,Mullins-Dean,88f301a6-401,8ecd5b13,Medicare
+3532a2cb,034312fa,Gonzales LLC,9361dfdc-85b,c5472572,Medicaid
+3550d4ab,3cf1dd6a,Pena-Nash,40118c70-7c4,15a1a21c,PPO
+35bc2aff,7dc9250f,Gonzales LLC,81dd953f-978,492c6189,Medicare
+35eae316,9c5f86d4,Gonzales LLC,bf67e6ca-319,2f30cf18,Medicaid
+362356ad,4185b845,"Lopez, Lawrence and Williams",aae3931f-09e,e8a19411,Medicaid
+363aad79,48d63f24,"Lopez, Lawrence and Williams",fc061ac1-4f7,8f9703f2,PPO
+366dc0f1,4f43d83d,"Lopez, Lawrence and Williams",1e710514-477,2d20c487,Medicare
+3684334b,362cfc98,"Dixon, Maldonado and Murray",8bdc465c-0d0,1ec20591,PPO
+3799418d,24389691,"Lopez, Lawrence and Williams",0ee7cba2-d65,8648ae72,HMO
+37a65f9e,2a4cf30b,"Lopez, Lawrence and Williams",85543358-a6b,1f39c5e6,PPO
+3841662a,692daa53,Mullins-Dean,830d7587-00d,ca2c29ae,PPO
+38b39b84,e7e5a128,"Dixon, Maldonado and Murray",7942c834-87a,5d20848c,HMO
+394eb7e3,05a1f760,"Dixon, Maldonado and Murray",d9e30c9b-2be,e669c473,Medicare
+3b9b3627,43fe6607,Gonzales LLC,6ed8fdc4-0f4,62beb200,Medicaid
+3bae4f5f,681bcf43,Gonzales LLC,51cdc8f9-159,c21f77ca,HMO
+3bfa7fc1,8d1421b9,Pena-Nash,a76a9078-060,1c4ccd22,PPO
+3c4c5943,6cfb4598,Mullins-Dean,885a4bd5-023,242ee7fc,HMO
+3c823704,fa9a8ffe,Gonzales LLC,d1431229-d1b,4cc94714,Medicare
+3c8c9d43,06004899,Pena-Nash,e5cdc8d5-22d,7a6e0c70,Medicare
+3ccf8b09,adcbdd07,"Dixon, Maldonado and Murray",d2209e24-2f1,2e556581,HMO
+3d41967e,962128da,"Dixon, Maldonado and Murray",83016d2f-d03,3c43a6f9,HMO
+3d7022f2,cb16dffa,Pena-Nash,ab89804b-307,4d169a64,Medicare
+3dfe301e,c6547191,Pena-Nash,2f4c7695-229,71bcf866,HMO
+3eacbad1,7fdc3d82,"Lopez, Lawrence and Williams",1936d1ba-ae6,bd15ce7d,HMO
+3fb56781,14a290aa,"Lopez, Lawrence and Williams",e0f56969-c0e,7fafe83e,PPO
+3fc7cb4c,b9407eb0,"Lopez, Lawrence and Williams",d4550afc-0ac,e84e42c8,Medicaid
+4008b1c0,8cfd67de,Pena-Nash,7c9bf70f-322,573226db,Medicaid
+40296d07,0478e32b,Gonzales LLC,a3d1fcaa-039,4d440739,Medicare
+40ebf660,b0285564,"Dixon, Maldonado and Murray",37fde2ca-3ab,11c34189,Medicaid
+417c6044,04dc8276,Mullins-Dean,170ac201-614,a80cd33f,PPO
+41978a64,d5d2c173,Mullins-Dean,6c7d0b1a-6bf,d9c63006,Medicare
+41dd4a53,67e54961,"Lopez, Lawrence and Williams",da80dcca-f7d,504477f1,HMO
+41fb2b68,595312d6,"Dixon, Maldonado and Murray",86156c9a-ae6,ef240048,Medicaid
+42064c59,bea9b08b,"Lopez, Lawrence and Williams",4c345b93-451,c118152f,HMO
+42506046,fa46299f,Mullins-Dean,c7f23af7-cfd,b19b6509,PPO
+43e10bbc,5b4b2f76,Mullins-Dean,954e4ae5-f4c,8467f229,Medicare
+4478dff5,8866f9bc,Mullins-Dean,37dc4371-549,d56ccfc8,Medicare
+452c09b5,a608ac91,"Dixon, Maldonado and Murray",e338aa2c-398,f114c5fb,HMO
+45db7980,25261eb2,Pena-Nash,b6af161f-5ce,eddfa0e1,PPO
+460706a1,73782a64,"Dixon, Maldonado and Murray",0f539926-c49,eaf96ab0,HMO
+46a9a5cc,27ffba49,"Dixon, Maldonado and Murray",a10e9fdb-15f,adbad8af,PPO
+475353b8,273ed04e,Gonzales LLC,50ffbc36-6e9,9ed84797,Medicaid
+47e1a6c2,14d1a72b,Pena-Nash,d2e24b55-63c,f605f841,Medicare
+488eeef6,9b7fdc71,"Lopez, Lawrence and Williams",0b208b0f-fb1,120d73b6,PPO
+48a7f934,b25363c7,"Lopez, Lawrence and Williams",26775012-c4e,f8f91871,Medicaid
+48e387f0,41d75ca0,Pena-Nash,53a7440b-8b2,4aed6f60,Medicare
+48f5be47,6792e7a8,Gonzales LLC,0fb2df51-373,f123d8d4,Medicaid
+4944eb54,82f49dc4,Gonzales LLC,8954cfbb-a41,63575e6a,PPO
+496aab02,09004852,Gonzales LLC,aab7ea17-4c8,19c77905,Medicaid
+4a28ac1b,9f3f9683,Pena-Nash,9a29fc48-878,8c2055be,Medicare
+4a8e1166,911192ab,Gonzales LLC,264106a3-c5b,ce21e107,PPO
+4b0517d6,cf8604aa,"Lopez, Lawrence and Williams",42a54e53-101,4b1c7e2f,PPO
+4b3abcfa,69e7c248,"Dixon, Maldonado and Murray",73e2b8aa-565,4b68b213,HMO
+4bab825e,0fab68df,Pena-Nash,98dcb8c0-331,d82a3ad8,PPO
+4c0dcc24,d46035cb,"Lopez, Lawrence and Williams",e8100374-53f,76aad614,Medicaid
+4c3ea8c6,fee9c341,Gonzales LLC,06b9c774-6c3,b7c2cabb,Medicare
+4c624468,d6592419,"Lopez, Lawrence and Williams",99f3e3bb-8dd,24340578,PPO
+4c7af40f,bb9fd6ea,"Lopez, Lawrence and Williams",4cc9f18b-115,45375122,Medicaid
+4e238a8a,0c7f643b,Pena-Nash,79bc7289-12d,0d5cdd4b,PPO
+4e60fa5f,dd20959b,Mullins-Dean,b35b3f95-f74,ba84a594,PPO
+4f03d447,95b02ac0,Mullins-Dean,758424d4-448,fe3e0d45,Medicare
+4f159ac5,42037474,"Lopez, Lawrence and Williams",c4cea157-622,f1f9e579,Medicare
+4f72509b,2996a6e1,Pena-Nash,d54216eb-fbf,fd53108e,PPO
+50bc2042,669c3a10,Pena-Nash,efb88870-6c7,fba2541c,Medicare
+50fb4c3a,da2c4bc9,Mullins-Dean,6dd9a263-892,85b3b239,PPO
+5126dd2c,94ff1aa4,Gonzales LLC,d4045773-68c,5c393521,Medicare
+5175f272,d4a6254f,Gonzales LLC,fdc25b1e-7ab,fc505d6e,HMO
+51c27ad6,76fab2c1,Pena-Nash,97e1c5c7-588,628ed868,PPO
+520b4004,395fd80b,"Lopez, Lawrence and Williams",40e091a3-0a6,dc57b97e,HMO
+534ad3f4,b6cc28b3,Pena-Nash,eaf45008-3bd,6c5ef1e8,HMO
+53d8012e,85ab3fc1,"Dixon, Maldonado and Murray",6ce43410-f9e,bf54b88d,HMO
+55072d55,c67fa21f,Gonzales LLC,a7696e7b-8ff,3c17bc95,Medicaid
+56486e69,3dc7a77f,Pena-Nash,57ec3f78-0ea,55d8d1b0,Medicare
+567b6260,402c88c7,Gonzales LLC,0ed9c7f2-883,262bdecc,PPO
+56f25271,96a00a92,Pena-Nash,19e8b606-8c6,c5353a82,HMO
+5724ade6,a92c5a06,"Dixon, Maldonado and Murray",06a532b2-b65,ce039fa5,PPO
+57531d74,c0dc362c,"Lopez, Lawrence and Williams",6d090a3d-df8,ef697713,Medicaid
+582a3c9a,f926cf29,Pena-Nash,df779695-5b2,0815ba5a,PPO
+58467267,234e904e,Gonzales LLC,401696df-056,d3f1aa70,Medicare
+5881a273,d185d1d7,"Dixon, Maldonado and Murray",279b6f59-380,1d22d6bf,HMO
+58eb963b,24936835,Pena-Nash,e1d120d0-251,13169e5f,HMO
+592fc026,22d04070,Pena-Nash,f3c027af-634,0f1d30b8,PPO
+5944bb40,4f897a6c,Pena-Nash,847f42ad-55c,22274136,PPO
+59584632,91daaa08,Pena-Nash,d95682b5-7bc,3ff10616,PPO
+5a6a1af3,06a1fde2,"Dixon, Maldonado and Murray",85d110dd-5c7,a1546d7f,HMO
+5aa60fc2,6e6cf9df,Gonzales LLC,e6abebe6-d41,f9a6258e,Medicaid
+5aac32bf,bb1e4da8,Pena-Nash,aa3cc68a-980,8d29b214,Medicare
+5b02cb94,f5b558d1,"Lopez, Lawrence and Williams",e313d215-0d3,e4a15890,Medicaid
+5b469aca,77abfcd0,"Lopez, Lawrence and Williams",eb0e4a43-403,ad70cb6a,PPO
+5b4ceab8,42bd4bfa,"Dixon, Maldonado and Murray",f8bcee64-8ba,4706bf43,HMO
+5b7a6d29,b2a1f404,Mullins-Dean,07a25eb4-cfa,ac4c7635,Medicaid
+5bdad1c9,f9db9135,Mullins-Dean,7b3c424e-2ae,1a620f25,Medicaid
+5be12485,a396a178,"Dixon, Maldonado and Murray",9d533c2a-d25,e1dd0e66,PPO
+5c89916a,da1dce44,"Lopez, Lawrence and Williams",0a81c486-98b,3f91f3ec,Medicare
+5c8a2d37,51b43709,Pena-Nash,13e13d45-b0b,e17c6871,HMO
+5cb7bd43,930714c2,"Lopez, Lawrence and Williams",5dd8b90f-984,fff0b3d6,Medicare
+5ce5228a,4dc3e346,Mullins-Dean,8390b5d8-8b0,56ea8652,HMO
+5d5a09f3,f19efbd4,Gonzales LLC,56bc8326-6ff,28c480ec,PPO
+5e55a00f,3dd6f40b,"Dixon, Maldonado and Murray",b862c79d-05e,067c9f5b,HMO
+5f1e7f00,0dffec7e,Gonzales LLC,8d72689b-3d9,23a6adb0,HMO
+5f98cf2a,d9a0b555,Gonzales LLC,cf1c8f55-63b,0acd2049,Medicaid
+5fd39005,907aa23e,"Dixon, Maldonado and Murray",7f496add-40b,7e3b7a8b,Medicaid
+607d6aa2,d00b9f91,"Lopez, Lawrence and Williams",d8450217-249,67709157,Medicare
+60995d81,ebbeb937,Pena-Nash,60e2548a-71a,31811cfa,PPO
+60ffc450,3bff24f6,Mullins-Dean,8e46a074-0b3,0ec9c308,Medicaid
+61126e9f,44025e8d,Mullins-Dean,98f10be7-bbb,371181f4,Medicaid
+612aa251,5564f925,"Dixon, Maldonado and Murray",d2fcf084-76f,cd600319,Medicare
+619b5b23,18e42d28,Pena-Nash,91d8ab45-e97,74958e0a,Medicaid
+61aba465,dc99d1f8,Pena-Nash,4c485796-e04,5558b1f0,PPO
+61b361dc,cae1e0fa,Gonzales LLC,52d45c81-7cd,4d3bbf0e,PPO
+61d9b5b2,7571fd76,"Lopez, Lawrence and Williams",5ead25fc-00b,9b765412,PPO
+632017fc,2ee0f42e,Mullins-Dean,5bb47400-fd7,7efd476d,HMO
+63a74bb8,d7455887,Mullins-Dean,62fe7c6b-339,eda60073,Medicaid
+64c41be6,08104e3b,"Dixon, Maldonado and Murray",9790f967-ff2,d5286400,PPO
+64db883c,9e69cc42,Gonzales LLC,7cf213c3-d39,3e3e19ff,Medicare
+6503a531,df4b8a56,"Dixon, Maldonado and Murray",8fa631ba-e03,8ed5c9c2,PPO
+65277792,cef4d620,Mullins-Dean,720ff6a7-539,49437f4c,Medicare
+6551cd6f,f8450b38,"Dixon, Maldonado and Murray",942af850-746,3264559a,PPO
+6578cb4e,baae27af,"Dixon, Maldonado and Murray",f5654395-777,e0c6f0b4,PPO
+663d2372,5c13db62,Mullins-Dean,9afbc074-707,644d0ce3,PPO
+66a5ae63,71be1e7b,Mullins-Dean,0369d7a3-ba6,e8810d8e,PPO
+67044f3c,063745ab,Pena-Nash,b2bb2e34-2d3,de4fa459,PPO
+6714ea58,c042002a,"Dixon, Maldonado and Murray",2fa0f27f-258,ffead285,HMO
+6771b93a,0f5069c3,"Lopez, Lawrence and Williams",33aba74a-3a7,4c09bfd4,Medicare
+67ff8f16,af3a608d,"Lopez, Lawrence and Williams",1526fa6a-46b,e32dc3fa,Medicaid
+68a08943,099a97cf,Gonzales LLC,fb4f4b1e-ccf,0585e1fc,PPO
+68b05715,613ce3b5,Pena-Nash,98b7ee30-62f,c865a2ed,PPO
+68f68333,a8fb0409,"Dixon, Maldonado and Murray",77ffd560-6a8,4a6607fb,PPO
+6940f03f,71258ebb,"Lopez, Lawrence and Williams",de29c1df-345,b34c47fa,Medicare
+699cbea9,8fea8383,Pena-Nash,00de45cd-67a,a1bed3c4,HMO
+69f69395,99339439,Pena-Nash,60f231fb-93b,206528d2,Medicaid
+6a4b3fa9,5dfdf5a1,Mullins-Dean,3b93ea0e-4fa,5ffca7d5,Medicare
+6b5237c3,e16726ff,Pena-Nash,15e85dc9-0b3,4f60984f,PPO
+6ba26b1e,b27ae3bc,Pena-Nash,4e40290b-f7c,a06ccc94,PPO
+6bfcdb86,2053b111,Gonzales LLC,903ecfe2-e97,7275fde8,Medicare
+6c149c5c,b8d666fa,"Lopez, Lawrence and Williams",6fb20ec6-772,e33738f3,HMO
+6d0703d8,beac031a,"Lopez, Lawrence and Williams",0a2e5381-511,a6f1d204,PPO
+6d1d0c04,011bc49c,"Dixon, Maldonado and Murray",94eb88bc-d4e,167b5001,Medicaid
+6db2c011,f916cddf,"Dixon, Maldonado and Murray",4ad8cead-48b,a94eebd5,HMO
+6e56936d,9cd5c3fe,"Lopez, Lawrence and Williams",18b9aa52-7c3,4922e688,Medicaid
+6e7075eb,56271010,"Lopez, Lawrence and Williams",6cf47b83-0c3,713c4996,PPO
+6eccc45c,5c7fbf27,Pena-Nash,d594b721-d05,cf4a182f,Medicare
+6ed3704d,9f9e443b,"Lopez, Lawrence and Williams",72bc0b70-500,7e9d8d2b,PPO
+6ef2f2dd,362cfa3e,"Lopez, Lawrence and Williams",de287319-1c2,fbff321e,HMO
+6f490c59,f3453d28,"Dixon, Maldonado and Murray",c3e99c88-f15,2911b0c9,Medicare
+709d860d,840aa402,"Lopez, Lawrence and Williams",56319771-d52,16796444,PPO
+70a0cab3,7c65f639,"Lopez, Lawrence and Williams",f36f3fea-9f0,6a14b131,HMO
+70a2c515,2efe1511,"Lopez, Lawrence and Williams",29efd20d-15b,8e620a8e,PPO
+7160f81b,9ac17efc,Gonzales LLC,e78f061d-1cd,86f247cd,Medicare
+7240a558,39d88af1,"Lopez, Lawrence and Williams",0fcfcd90-bfc,eb6b9d98,PPO
+725e26ea,80887b7e,Gonzales LLC,d43b6da1-bd3,06659266,PPO
+72812778,98c403c7,Gonzales LLC,fac393e4-703,dc793337,HMO
+72c5bd3c,d0216eb0,"Dixon, Maldonado and Murray",1d7671ab-bfe,e64d183d,PPO
+73352037,41c29a92,"Dixon, Maldonado and Murray",170eed12-481,6668d4d3,HMO
+7385b845,e02591c6,Pena-Nash,ffc626cc-74e,7b4cdb25,Medicaid
+738ae2fa,e8b5cd65,Pena-Nash,146414a5-677,3dc7da88,Medicaid
+73d5e1f8,bb3fbdc2,Gonzales LLC,bce657c6-895,f3bf41c8,PPO
+75846868,3f9f8c8f,Pena-Nash,8e1a016d-cb8,8148ebf6,PPO
+75aa91ad,299ec6aa,Mullins-Dean,4fcaba62-42e,212c8dae,HMO
+774b08bf,c74a6519,"Dixon, Maldonado and Murray",8302903b-bea,23078530,Medicaid
+7773d771,bd36d2a6,Gonzales LLC,40580e94-1e0,f2e92d4a,Medicare
+78309456,bead10d7,Pena-Nash,4ab30fd3-140,c3606dc7,PPO
+78608634,33094937,Pena-Nash,bb52e93b-abe,81223faf,Medicaid
+7893ef40,904a0a10,Pena-Nash,e3bea806-c16,ec47390d,PPO
+79ed0092,a767334d,Mullins-Dean,db5e8543-755,9d26afd2,PPO
+7a5d6d71,b46cfdd5,Mullins-Dean,e773d9aa-b75,59d215a6,Medicaid
+7aca0664,6b7b7ea4,"Lopez, Lawrence and Williams",67649df9-77d,d1446317,PPO
+7ad7d642,713c3550,Pena-Nash,dea4ed02-db5,9e0572b6,HMO
+7b07716e,a4df03f9,Gonzales LLC,9d77fc22-aa6,a5c27ae6,HMO
+7bd0974d,0ed4ff33,"Dixon, Maldonado and Murray",2cf053ff-776,2450fc88,PPO
+7c667364,f178302e,"Lopez, Lawrence and Williams",878a8d27-4cc,4e110c17,PPO
+7c7f57db,f52543f9,Gonzales LLC,c3d121cd-b82,a156c4bb,Medicare
+7d057b56,a8d3c4db,Mullins-Dean,75084590-0a4,f6653a6d,Medicaid
+7d8415e2,c378cf98,Mullins-Dean,776e75ed-4f9,7df38d2c,Medicaid
+7da9fb0d,4136049a,Pena-Nash,26c9e886-fdf,6adb02bf,Medicare
+7e09f1db,85340733,"Dixon, Maldonado and Murray",62fc1f58-7d3,c0b53292,PPO
+7e113d92,9a32fd3e,Gonzales LLC,c2be2ed7-07a,d9a9ef5b,HMO
+7e14f6bd,9baaa0fd,"Lopez, Lawrence and Williams",d7e310b5-722,39dbefb7,Medicare
+7e9542cb,16718ca1,Mullins-Dean,9813232c-a51,26c7a89d,Medicaid
+7f01fb2a,5b7dcc2e,Pena-Nash,94821a1a-db1,93f23749,Medicare
+7f1ade84,c1c0b8b1,Mullins-Dean,02a7b7c6-13a,4ac2dd0e,PPO
+7f2bd817,6f35a03c,"Dixon, Maldonado and Murray",c9b50e8e-5b8,7ddd379f,Medicare
+7fa1befb,cd9636d1,"Lopez, Lawrence and Williams",bcc62470-c36,2c4f19bc,Medicaid
+80549c78,b1aed406,"Dixon, Maldonado and Murray",3e52e002-5d6,2b4670e9,Medicare
+818ec79a,7b886446,Mullins-Dean,db26ddcb-092,f294e758,Medicaid
+828c7c9a,85178bfd,"Dixon, Maldonado and Murray",f9f7d91e-639,c6e9784c,HMO
+832d24e8,a6bdb6b9,"Lopez, Lawrence and Williams",a4afd458-27d,1b7c1f13,PPO
+83ae2dcd,33e9ff83,"Dixon, Maldonado and Murray",42143568-61f,b55e9370,PPO
+8453a9e3,6a594cf4,Pena-Nash,03efa9ef-3c4,df090468,Medicaid
+84877626,62b00f07,"Lopez, Lawrence and Williams",a7f55745-5c3,10b50365,HMO
+86cef9fe,e0a6e0b0,"Dixon, Maldonado and Murray",2abf8872-5d1,fda3b822,PPO
+8702d29c,dc1226fd,"Lopez, Lawrence and Williams",dd82847d-362,c41c4c14,HMO
+8723fd57,eb84a4b8,Gonzales LLC,821b5af2-d66,2c022aeb,Medicaid
+87f5ec55,bb3a4112,"Lopez, Lawrence and Williams",072e27e6-9dc,0cb2b390,Medicaid
+897d8285,b78d1d1b,Mullins-Dean,34d721a6-8c3,65594dc1,Medicaid
+89d3c1d0,05889ae1,"Lopez, Lawrence and Williams",a0d51dd4-597,78ee97c9,Medicare
+8ace0f73,db53aa28,"Dixon, Maldonado and Murray",e8755d40-d94,99b157b2,Medicare
+8b545bb5,67cb1494,Gonzales LLC,13507a4a-8bb,0292f32e,Medicaid
+8bd82c75,89d7f2fa,"Dixon, Maldonado and Murray",661699dd-91f,cd2c4f12,Medicaid
+8c23857b,a46750c1,Gonzales LLC,e0fbc18d-cd6,25a5eb90,Medicaid
+8c9acdf0,2ed49d7d,"Dixon, Maldonado and Murray",7ef0d809-af3,be89741b,Medicare
+8d726650,e906b9cb,"Lopez, Lawrence and Williams",0b4181c0-43e,a6d4eb9d,Medicaid
+8dae62d9,03749083,Mullins-Dean,3dba2d39-6c1,1ce2d050,PPO
+8ddd405d,cc2799ba,"Dixon, Maldonado and Murray",fc4d9e3c-6e6,00f4c70d,Medicare
+8e7c0bd5,f42d452f,"Dixon, Maldonado and Murray",43d7d8cc-53a,5ad994c7,PPO
+8f8e393a,f6b1b12c,Pena-Nash,645a72a2-3e3,68be31fe,Medicare
+8fa0ec1c,fc4e8f6e,"Dixon, Maldonado and Murray",3d47278c-4b5,3a27468d,HMO
+8fe3bdbb,ef51488e,Gonzales LLC,890a69a2-145,6aac8a43,PPO
+903dd099,2531e805,Pena-Nash,d4839c9f-5fa,3435454c,Medicare
+905fe9e3,60bf2aa5,Mullins-Dean,e5f94144-1d2,63d68db9,Medicaid
+90eb7112,89db63a7,Pena-Nash,70c164aa-555,6114d2ea,Medicaid
+92937e5d,9e4e2f30,"Dixon, Maldonado and Murray",3d8888c0-6ef,caf6f7bf,Medicaid
+92eaa362,ba191a68,Mullins-Dean,923d2dbf-c18,bd76e1a6,HMO
+92f89fca,15568a7b,Mullins-Dean,51b3c0c6-fb1,8936df85,HMO
+937ef91e,d2b1d6db,Gonzales LLC,3b683090-ebd,78f36e93,HMO
+93e11003,2781f994,Mullins-Dean,89a5cb1b-b5d,637d4f96,Medicare
+93e50b7e,60387eab,"Dixon, Maldonado and Murray",1e58510d-e18,9b0339f4,PPO
+93e89d4e,8e013973,Pena-Nash,b175fc00-c1a,c81166a1,HMO
+943461cb,78df4b46,Pena-Nash,403018fa-6bb,d87ca572,PPO
+9445310e,6233cb30,Gonzales LLC,96c14e8b-e67,be1353c5,Medicare
+952f9130,35df6df4,"Lopez, Lawrence and Williams",ed6078b1-5a3,a5e39059,PPO
+957ae1c1,8013f311,Mullins-Dean,f2430e77-879,8d800b8e,PPO
+95d76047,b5f21159,Pena-Nash,d5cc989a-9dd,dad7f0af,Medicaid
+9619a1ed,9778c285,"Dixon, Maldonado and Murray",ce60b5ab-a99,f04e241c,HMO
+96deaee6,d05581c0,"Lopez, Lawrence and Williams",85f9282f-d83,dfdd1313,HMO
+97e57319,cda3302e,Gonzales LLC,b809e20f-103,3b572e13,HMO
+9ba21d87,153b768c,Gonzales LLC,dcef8d06-4de,a800d62d,HMO
+9ba77e8d,fc71977d,Mullins-Dean,eb8b4567-eaf,aedc401b,Medicaid
+9cf4faf4,21a9935e,"Lopez, Lawrence and Williams",51ca0fb0-0d3,68d747a5,HMO
+9d89adca,8e7cfe19,Gonzales LLC,1151b078-d6e,c950c558,PPO
+9db250f2,f94b3794,Mullins-Dean,adff74af-c76,62f9a6f4,Medicare
+9ddd2669,de2e726c,Mullins-Dean,a37a7a3c-ef5,896da34d,Medicare
+9ee812f4,6772cbfd,"Dixon, Maldonado and Murray",9f20194c-9c6,a1e1c7a7,PPO
+9f6ae7e3,5e5c3d38,"Lopez, Lawrence and Williams",06c64430-ef4,74b20289,Medicaid
+9f9b9db2,7e0ba61f,Pena-Nash,1a90c495-261,92474eea,Medicare
+9fe5bd3f,829da69e,Pena-Nash,652b7019-ad3,5274024c,Medicaid
+a03406d2,7ad85772,"Lopez, Lawrence and Williams",26790468-023,a78f7232,HMO
+a0981922,5c422060,Mullins-Dean,faeefa02-654,28e3c8dd,Medicaid
+a15636fc,b503906b,"Dixon, Maldonado and Murray",c30e1038-20e,28d41218,Medicare
+a1a898fd,b9a21580,Pena-Nash,636d362e-870,a90556ad,HMO
+a26ba4ca,7990c886,"Dixon, Maldonado and Murray",ff58692a-fc1,8ad356c6,Medicaid
+a354749c,5763e537,Mullins-Dean,e5992ba5-664,4bb61c90,Medicare
+a3c115a2,b03f14ea,Pena-Nash,46a8ccfe-119,c1a09ee3,PPO
+a45d6f18,89f2269a,Gonzales LLC,c66faf32-f25,2751b26f,Medicare
+a47e8fbb,ab94b54d,"Lopez, Lawrence and Williams",edcac945-caf,87b8fcd8,HMO
+a4848e80,851ef3a2,"Lopez, Lawrence and Williams",b8709096-2da,c4664d2f,Medicaid
+a49266d8,03fa72f8,Mullins-Dean,6a0c2ff0-6de,0255f905,PPO
+a4ffccfc,e8c58454,"Dixon, Maldonado and Murray",c42d4767-16d,07837da2,Medicaid
+a587f223,4192965e,Pena-Nash,63021990-f16,8031f332,HMO
+a62f4175,421c281e,"Lopez, Lawrence and Williams",dd272411-b2a,20fae2f4,HMO
+a6e11e89,7c614a84,Gonzales LLC,49f3f6e3-b33,a084cf34,Medicaid
+a73ddc75,fa0e62f1,Gonzales LLC,c7014f4a-3f1,aed0b470,HMO
+a74e6883,fbddcf6f,"Dixon, Maldonado and Murray",1bf07f41-22e,12e3dc93,PPO
+a7c01b7a,c1716aee,"Lopez, Lawrence and Williams",934939fd-a94,6962db0e,PPO
+a80acee5,9438b4d9,Gonzales LLC,84e00bce-aaa,e2c27569,HMO
+a87739d3,f99bc6a3,"Dixon, Maldonado and Murray",ca5a3cd8-6d3,b55a3e34,HMO
+a900e8f0,0e006220,"Lopez, Lawrence and Williams",af6e804b-e4f,0b6877ac,HMO
+a9d61946,c4caaec4,Gonzales LLC,2979f773-55a,6b772dac,Medicaid
+aa0f4698,4694a5c4,Pena-Nash,a3146bae-8d6,a76022d4,Medicaid
+aa399f23,de1d0f66,"Dixon, Maldonado and Murray",68aa9439-f64,38bec772,HMO
+aa92d55e,81b4db3c,Pena-Nash,b55e2bae-964,f192a595,Medicaid
+acfeb08a,d40d0e5f,Pena-Nash,e0f1c0a6-439,86ecef26,Medicare
+ad200cb0,3d7af86e,"Dixon, Maldonado and Murray",925138a9-c43,f4c2ab10,Medicaid
+adde79f3,30619d4f,"Dixon, Maldonado and Murray",a30ce605-72e,50720555,PPO
+aeb4dd62,a08b7c92,Mullins-Dean,564999d5-8de,b2730b56,PPO
+af28da75,2d9e78ac,Mullins-Dean,c6f17e0d-776,a08e0d65,PPO
+aff55c39,5bcca5ff,Mullins-Dean,6433bc69-4d8,b8e73f90,Medicaid
+b1568a60,a032a7a3,"Lopez, Lawrence and Williams",037b7205-01f,5fc1228f,PPO
+b159cd9d,1adeb649,Mullins-Dean,b5fb646a-77a,57cb3c1c,HMO
+b23d952f,d0bf2996,"Dixon, Maldonado and Murray",fa8fedd7-f38,15ca6b19,HMO
+b2656436,de92c5e5,"Lopez, Lawrence and Williams",3e0e0a43-47a,2c1f8822,HMO
+b4a542dd,0187860e,Pena-Nash,6e661c6f-06a,2ff16691,Medicaid
+b4b8850d,cfe97f45,"Lopez, Lawrence and Williams",8cb8cbbc-3be,0df7ae62,Medicare
+b5b0da6c,beab8cea,"Dixon, Maldonado and Murray",6de756be-a8c,64eaaefd,HMO
+b62293d7,c36ce36a,"Dixon, Maldonado and Murray",e3d5dada-6de,418a1196,Medicare
+b64656c9,c0f3c6ca,Mullins-Dean,3a38f774-b6c,a3cb4154,HMO
+b64aebbe,ff9e294d,Gonzales LLC,425f4b68-307,8ad6b255,HMO
+b64d7b9b,538d90c4,"Dixon, Maldonado and Murray",3f86bc0a-a8c,ffae81db,Medicaid
+b66195bb,5f338d21,"Dixon, Maldonado and Murray",b57d4c70-c6e,d965172b,HMO
+b66211af,fe35595e,Pena-Nash,a1dbf015-4fe,62079f48,Medicare
+b73b6f05,f5212b7b,"Lopez, Lawrence and Williams",093c5413-8b0,ecec67ef,HMO
+b74e66f4,e3bf156f,"Dixon, Maldonado and Murray",b2eeca4e-480,bc1e06ca,PPO
+b7e0d13e,ea9c7dab,Pena-Nash,f51e5ca5-921,2956efb2,Medicare
+b95f8ac7,240ba772,Pena-Nash,8bd4b9db-c7b,b03e16ff,HMO
+ba04ef72,690a36c9,Mullins-Dean,c0fa1485-133,2605b269,Medicare
+bb677ac1,1835005d,Gonzales LLC,270f4615-89d,922a9602,Medicare
+bbbf5e8c,cd8338af,Pena-Nash,c502153f-cfe,33cb8b62,Medicare
+bbcc19ed,7a37e5b9,Gonzales LLC,d6d9f1a0-ac9,70f7acff,Medicaid
+bca223ac,99086a83,"Dixon, Maldonado and Murray",3500a3ba-f4d,047a0127,Medicaid
+be4f81be,dc7da31c,Gonzales LLC,019f7545-8ab,425a0fed,PPO
+be78c0c7,c68724ab,"Dixon, Maldonado and Murray",cc100dcb-405,10818dfa,Medicare
+beb762cd,6457340c,"Dixon, Maldonado and Murray",726e6d56-e29,929a996f,Medicaid
+bebd255d,3a9ab813,"Lopez, Lawrence and Williams",40337f70-8e9,847ecc82,HMO
+bec22db7,2863e81d,"Lopez, Lawrence and Williams",a8c96dde-62a,78f15a3e,Medicare
+bece8556,ae740996,"Lopez, Lawrence and Williams",6013ec0b-a30,29694026,Medicaid
+bed8876d,c31819b9,"Dixon, Maldonado and Murray",1160ecfa-2f2,bbb69b51,HMO
+c07d503f,7198f86e,Gonzales LLC,747f3e7f-107,a9dc9a1c,PPO
+c1223a29,25f2ae73,Gonzales LLC,d0a46a10-31c,ccf2a4d8,PPO
+c13f0ebf,3724d572,Mullins-Dean,5b8b2c13-4f9,bb76eec7,HMO
+c20a0a33,1697c353,"Lopez, Lawrence and Williams",56173c3e-83b,a31597e0,Medicare
+c266bd94,2f1a0897,"Dixon, Maldonado and Murray",448d161f-05f,2713d136,HMO
+c3dcc2fb,8cac82b9,Pena-Nash,26b6d5e5-cdd,7d162e88,PPO
+c4131034,1fd21ecb,Mullins-Dean,4c4e6140-ec7,14955747,PPO
+c4345ca2,cc97826d,Pena-Nash,b90d80ff-dbb,d9a7ea14,HMO
+c53b03a4,2f78edda,Mullins-Dean,415f7a85-29e,e61d3220,HMO
+c53c982e,7d1a5643,Mullins-Dean,89492d11-e2d,78b14f7b,Medicaid
+c56b5251,398ce6a6,"Dixon, Maldonado and Murray",540901cc-4cc,5723c96a,Medicare
+c66e02cc,6ddf74b8,"Dixon, Maldonado and Murray",74b2a19d-381,eb5415c4,PPO
+c68991fb,e4a2e5ee,Gonzales LLC,d397715d-6ac,abe022fa,HMO
+c6f29d0e,b0831c19,"Lopez, Lawrence and Williams",9b08bdc6-c03,64860f47,HMO
+c7fe8e78,70efb5aa,"Dixon, Maldonado and Murray",55fe7dff-ef6,90d74bcf,PPO
+c8185bb8,018ab310,Mullins-Dean,e372b439-0c5,de8a5b2e,Medicaid
+c84703bf,6347b375,Pena-Nash,c6ae7dd8-ff6,492bc5cf,PPO
+c8ac582d,db575fb9,"Lopez, Lawrence and Williams",722d56ab-0b4,9c929df4,Medicaid
+c8ad1683,4ff7c548,Mullins-Dean,864db847-40a,8f34ba93,Medicaid
+c8c2184f,9980ee59,"Lopez, Lawrence and Williams",d55cc632-422,4886ff81,PPO
+c8e6bb56,a364c30d,"Lopez, Lawrence and Williams",b41b22eb-7bc,089bb9cf,Medicare
+c94671c3,cb2c8f8a,"Lopez, Lawrence and Williams",323c3e48-62d,35702079,PPO
+ca0eea08,affda195,Gonzales LLC,da9acf7e-b18,cff7b05d,Medicaid
+ca252270,9b7b05ab,Pena-Nash,6805903a-e69,642d3ecb,Medicare
+caa5a84c,b43c4da1,Gonzales LLC,4384dd30-772,f463e92f,Medicare
+caf8a9f3,1d897459,Gonzales LLC,bf3644e9-5e0,bc2b7fe4,Medicaid
+cb1f31f5,ebfe1609,Mullins-Dean,65cd48bd-659,cb353c16,Medicare
+cb23f3f0,0f9ff240,Pena-Nash,f936b9a0-e9c,1700e481,Medicaid
+cb28022e,d4f28785,"Dixon, Maldonado and Murray",54513431-289,684a67bc,HMO
+cb9d3d57,ff192503,Pena-Nash,decba7bc-a86,dd2a5eb9,Medicare
+cbb90ea4,d8f7a669,"Dixon, Maldonado and Murray",4eed8400-aa0,4e33dd85,PPO
+cc0f78e9,cd4b0ee6,"Lopez, Lawrence and Williams",63b6e187-076,39382f7a,Medicare
+cc136e06,68116253,Gonzales LLC,83979814-56b,c2763f66,Medicare
+cc5599cf,744f70fc,"Dixon, Maldonado and Murray",1f66f4ec-067,185c1dd6,HMO
+ccde0236,ebdc26c3,"Dixon, Maldonado and Murray",e94d92b1-3c0,932ed9b0,Medicare
+cdf69ca0,905dd5c1,"Lopez, Lawrence and Williams",ec45b7bd-2e4,7fbbc114,HMO
+cee4a29e,fb571759,"Dixon, Maldonado and Murray",c8e9e382-9b0,efde6f31,Medicaid
+d010039a,30541168,"Lopez, Lawrence and Williams",fbf8c50f-c89,a5ab5ece,PPO
+d0181012,75c6c751,Pena-Nash,78a9a417-bf4,a15dc567,Medicare
+d0f1f532,029b4a2e,"Dixon, Maldonado and Murray",c340bf23-71d,074f9958,Medicaid
+d10fd638,07c66157,"Dixon, Maldonado and Murray",07f681a8-cac,81bfe243,Medicare
+d11b480c,23703802,"Dixon, Maldonado and Murray",1eafd24f-3b0,7bde91f0,Medicare
+d1278dfd,e420939b,"Dixon, Maldonado and Murray",666fa03a-d47,f8b53c1b,HMO
+d2637255,02e95703,Mullins-Dean,9e34f9fc-561,fba05661,Medicaid
+d3c49882,5f86690e,Pena-Nash,bb5bcc35-441,81318350,Medicare
+d49d8de2,e5d9b4b8,Gonzales LLC,abf806b2-e52,bc454aa3,Medicaid
+d4d0d719,f2d1c796,Pena-Nash,941040e1-5af,31b80bde,Medicaid
+d5539bfc,4d80c307,"Dixon, Maldonado and Murray",5184efd9-297,64515381,Medicare
+d58981ab,bc2a164c,"Dixon, Maldonado and Murray",56c032f4-49c,405342b3,PPO
+d60fbb62,9d8203f4,"Lopez, Lawrence and Williams",afc6eb29-056,918f7c56,PPO
+d74770c0,eb639f15,Pena-Nash,61c9a50c-7a3,7818e463,Medicaid
+d7e7f21c,be081574,"Lopez, Lawrence and Williams",0db69422-57c,8cab9783,HMO
+d7f054b1,018ba080,Gonzales LLC,65e98e30-fd1,4e6deee4,Medicare
+d8f227ce,85340fda,"Lopez, Lawrence and Williams",bbc48a17-c9f,212589d1,HMO
+da35f16b,3eba0e12,"Dixon, Maldonado and Murray",82f2a519-980,99557143,Medicaid
+da415b25,0ed78617,"Dixon, Maldonado and Murray",b371fc7d-80c,80d15ed9,Medicaid
+da46e80c,0006edfb,Mullins-Dean,a24c2cb9-83e,f8944704,HMO
+da534be3,a54a63b7,Gonzales LLC,da45c1e3-9c0,9b4c4c09,PPO
+da8b51ec,80b6bbaa,"Lopez, Lawrence and Williams",83a47f32-395,1fd78f48,PPO
+da90d8c3,2074e279,Gonzales LLC,2228e474-76e,f3f55e63,PPO
+db536ea7,21943519,Pena-Nash,75e043f8-fc9,c3edb604,PPO
+dbfd71ac,6827779d,Mullins-Dean,71c240f0-b7f,64a244ea,PPO
+dcb64cbd,fc38554c,Pena-Nash,fa90c08c-7c2,262dd189,Medicare
+de21c517,75a3be1c,Gonzales LLC,1009c7c3-91c,6945eeed,PPO
+de2e7cd1,eb1b8ad4,Pena-Nash,d21d6938-a20,70b30a06,HMO
+dfd1eff6,7a22313e,Gonzales LLC,cfeebc0f-485,4238cb4b,Medicaid
+dfde1d20,fc65137c,"Lopez, Lawrence and Williams",1f095422-a39,d2226e4f,Medicare
+e02eae1b,b6578603,"Lopez, Lawrence and Williams",87e17371-fe7,a5746ddd,Medicaid
+e04b015a,78d3f9e2,Gonzales LLC,b1bf1560-22e,16e16456,Medicare
+e071e3ee,fbb9b53b,Pena-Nash,ce12abd3-7a6,098d8d65,Medicaid
+e0970eab,c691987b,"Lopez, Lawrence and Williams",1101c14e-912,992ff6a9,PPO
+e0ded1d4,b05a92a6,Pena-Nash,2c0f8d46-4f8,ee039e0f,Medicaid
+e124d074,14acc47b,"Dixon, Maldonado and Murray",92b7a892-a5a,05f27ed5,PPO
+e1a88388,f70ee8ef,Pena-Nash,84b8f98a-6f2,f713f6b6,Medicaid
+e1bae0f3,077343e3,"Lopez, Lawrence and Williams",00e97b43-ba4,a9ecabe8,HMO
+e3161813,12115f0d,Mullins-Dean,fddc2a87-555,577036a5,PPO
+e3d8ee47,bbe07787,Gonzales LLC,d57d9e58-343,706a5e9c,HMO
+e43bb174,17c0ea45,Mullins-Dean,dd63649b-a97,f872289a,HMO
+e44e5c81,8a2ff94f,Pena-Nash,bed0384d-b72,176fc0a5,Medicaid
+e4ba6baa,83f4a85c,Mullins-Dean,f1727318-c7a,69244ea5,Medicaid
+e50af76f,c51568be,"Lopez, Lawrence and Williams",762c9def-aa1,d84f802b,PPO
+e546ae2d,db984861,"Lopez, Lawrence and Williams",cb55ba47-d0e,c3832304,HMO
+e5dd1bcd,d4778789,"Lopez, Lawrence and Williams",6be2e146-e31,0bec45b2,Medicare
+e621dfa6,567e1fd9,"Lopez, Lawrence and Williams",22a51953-600,ecd23698,Medicare
+e631b918,a3318af8,"Dixon, Maldonado and Murray",7bd45227-31f,f0f64801,PPO
+e657e9b3,1ddf53d3,"Dixon, Maldonado and Murray",40374a15-eff,19c773f3,Medicaid
+e669ab81,d4f7aae2,Pena-Nash,f66aa89a-4d1,4bcf1524,Medicaid
+e6ab98b2,d26a271b,Gonzales LLC,688965db-a3d,2b22ba2b,Medicaid
+e74bfdbf,ecd6cf3c,Gonzales LLC,9fcf94d7-6b5,a8b32f80,HMO
+e75ce2e5,0686dca9,Pena-Nash,d242d967-4e7,fe600c21,Medicare
+e7b73a47,a325de4a,"Dixon, Maldonado and Murray",0d60f5c5-77b,39c57377,HMO
+e9965e2d,6df397cc,Pena-Nash,e2f6cefd-d0f,2f35ddcd,PPO
+e9b15064,55acf69e,Pena-Nash,d3586849-404,d99ff97c,Medicare
+e9ba4050,fc3d4f9e,Gonzales LLC,375c0d89-8d5,b494aa32,Medicare
+e9c264a4,777aa78a,Mullins-Dean,24685681-90c,d08647c0,PPO
+e9c45757,d02a7dc0,"Dixon, Maldonado and Murray",b2a7f65c-49b,04a9de20,PPO
+e9e0788b,b9cab85c,Mullins-Dean,40e84c55-4fe,22a13c15,Medicaid
+ea367911,17512767,"Lopez, Lawrence and Williams",f9fec3a1-3ae,928d5a12,Medicaid
+ea7bf8f1,2da9768c,Gonzales LLC,6b18260f-0a5,9ab21b65,Medicaid
+ebdd2f72,9662db56,Mullins-Dean,98e89c57-fa1,5dca143f,PPO
+ec7080b4,e57bda01,Pena-Nash,cb03e985-63b,a95cf771,Medicaid
+ec795e0f,ff98275b,"Lopez, Lawrence and Williams",05347989-d04,f2d1ab83,Medicaid
+ecaa39fb,83458331,Pena-Nash,09e52884-a99,22363340,Medicare
+ecacc0f6,696aadfd,"Dixon, Maldonado and Murray",734ffe18-207,a7ad4f7f,Medicare
+ed19eaf5,d2f84c6a,"Lopez, Lawrence and Williams",eda4e7b0-036,2ae8d0fd,Medicaid
+ee1940f3,7a3288da,Pena-Nash,932dfdeb-580,e7d95d87,Medicare
+ee1f0573,e7a0bad8,Mullins-Dean,93695424-f25,90f55e40,Medicaid
+ee43380a,9dfe3880,"Lopez, Lawrence and Williams",abf276a6-7f2,c9531dbc,Medicare
+ee91d463,ed3cfd79,"Dixon, Maldonado and Murray",f1206fb4-e14,5b6394b3,HMO
+ee9e94ee,2807b877,"Dixon, Maldonado and Murray",4565c082-1e7,b7dd1e68,Medicare
+eecd3141,9d6f15bc,Pena-Nash,52dfa983-400,2c0194ed,HMO
+ef169d9f,427d747e,Pena-Nash,7b5cd33f-2ee,c9214313,Medicare
+ef910809,8422d9be,Mullins-Dean,e4ff7b7e-b37,9b54bb94,HMO
+f045f5db,1ef2e8a0,Pena-Nash,11fee0a5-27b,31d3c383,Medicaid
+f0c6013a,ace0328c,Mullins-Dean,152ffe12-1e8,c1ce43a0,Medicaid
+f0f643cd,056ac090,"Dixon, Maldonado and Murray",bdac8b34-6a6,b967f52d,PPO
+f2a64f6f,b7d07cd5,Gonzales LLC,1f6096b3-36a,01aa21ae,HMO
+f3579646,dbcd652e,Gonzales LLC,86d6899c-d5d,a6589acc,Medicaid
+f37e1050,4004a9ad,Mullins-Dean,4eabd5fa-c12,c363e06c,Medicaid
+f3b382d5,84c41928,Gonzales LLC,8f6ff664-9a9,b366cc9b,HMO
+f5048802,4c0dbc91,Mullins-Dean,35dcd602-692,f2dbdc54,HMO
+f52e76c8,33c8ffef,Gonzales LLC,f2d3f80b-6a4,324b9591,Medicaid
+f5508c5b,ff8b5093,Mullins-Dean,bc6718ae-e8e,f490c083,HMO
+f5ccc259,a4b30a86,Mullins-Dean,1f575e6e-90d,0754d4fb,Medicare
+f66118be,5a54298b,Gonzales LLC,fa9b94f7-e76,2353aab8,Medicare
+f7ac9575,9d8aa58e,Gonzales LLC,4a720fa0-fbd,bb7d84e7,Medicare
+f7fa8484,edf8900e,Gonzales LLC,a867e91e-9a0,aa3ad73f,HMO
+f9856ff0,82fc6b98,Gonzales LLC,cf35b300-dae,43f5b47f,Medicare
+faecd6d0,28ddd1c0,"Lopez, Lawrence and Williams",720f3574-2ef,d210ecb8,PPO
+fbd19e09,8b5ff0e2,Gonzales LLC,92b3cf66-b7f,16c35945,HMO
+fbda6884,f5fa34b6,"Lopez, Lawrence and Williams",6f802acd-be6,0254b804,PPO
+fc6c4f2c,580686e4,"Lopez, Lawrence and Williams",57707778-6ec,c1526376,PPO
+fcf8a7f8,6383ea9b,Pena-Nash,a2261522-858,ceead1e6,Medicare
+fd711b7e,3550c973,"Dixon, Maldonado and Murray",367c7041-cd8,4aa4b47f,PPO
+fe19053f,4692c197,Pena-Nash,e2aa3003-7af,584eba5d,Medicare
+ff099f84,abec5bdf,"Lopez, Lawrence and Williams",5649669b-853,4e1f8065,Medicare
+ff7889ad,ca759b5d,"Dixon, Maldonado and Murray",d34c738b-0cf,e3ec0842,PPO
